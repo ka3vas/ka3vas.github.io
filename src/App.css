@@ -1,0 +1,58 @@
+.hero {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: red; */
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 200px 0;
+  position: relative;
+  overflow: hidden;
+  /* min-height: 100vh; */
+  min-height: 50vh;
+}
+
+.video-bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.65);
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+}
+
+.card__title {
+  font-size: 44px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+
+.card__phone {
+  display: inline-block;
+  font-size: 18px;
+  color: white;
+  background: #92c020;
+}
+
+.card__open {
+  color: #92c020;
+  padding-top: 15px;
+}
