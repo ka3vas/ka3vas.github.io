@@ -1,7 +1,10 @@
 import React from 'react';
 
+import CardList from './components/card-list/card-list.component.jsx';
 import video from './assets/video/hero-video.MP4';
-import swiecieImg from './assets/images/swiecie.png';
+
+// import restaurant from './assets/data/restaurants';
+
 import './App.css';
 
 function App() {
@@ -9,23 +12,7 @@ function App() {
     <div className='App'>
       <div className='hero'>
         <div>
-          <div className='cards-display'>
-            <div className='card'>
-              <div className='card__image'>
-                <img
-                  width='300'
-                  height='300'
-                  src={swiecieImg}
-                  alt='urocza japonka podająca sushi'
-                />
-              </div>
-              <div className='card__title'>Świecie</div>
-              <a href='#' className='card__phone btn'>
-                (+48) 799 799 875
-              </a>
-              <div className='card__open'>Otwarte</div>
-            </div>
-          </div>
+          <CardList />
         </div>
         <video className='video-bg' autoPlay muted loop>
           <source src={video} />
