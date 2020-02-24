@@ -1,11 +1,11 @@
 import React from 'react';
 
-import CardList from './components/card-list/card-list.component.jsx';
+import Navigation from './components/navigation/navigation.component';
+import CardList from './components/card-list/card-list.component';
+import Footer from './components/footer/footer.component';
 import video from './assets/video/hero-video.MP4';
 
-// import restaurant from './assets/data/restaurants';
-
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
@@ -18,6 +18,9 @@ function App() {
           <source src={video} />
         </video>
       </div>
+      <Navigation />
+      <div className='pusher'></div>
+      <Footer />
     </div>
   );
 }
