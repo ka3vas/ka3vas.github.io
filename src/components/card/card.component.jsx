@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './card.style.scss';
+
 function Card(props) {
   console.log(props);
   const { name, phone, img } = props.restaurant;
