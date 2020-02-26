@@ -1,16 +1,11 @@
 import React from 'react';
 
-import Card from '../card/card.component';
-
 import './card-list.styles.scss';
-import restaurants from '../../assets/data/restaurants';
 
-function CardList(props) {
+function CardList({ children }) {
   return (
-    <div className='card-list'>
-      {restaurants.map(restaurant => {
-        return <Card key={restaurant.id} restaurant={restaurant} />;
-      })}
+    <div className='card-list__wrapper'>
+      <div className='card-list'>{children}</div>
     </div>
   );
 }

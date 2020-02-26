@@ -1,25 +1,23 @@
 import React from 'react';
 
+import Header from './components/header/header.component';
 import Navigation from './components/navigation/navigation.component';
-import CardList from './components/card-list/card-list.component';
 import Footer from './components/footer/footer.component';
-import video from './assets/video/hero-video.MP4';
 
 import './App.scss';
+
+import video from './assets/video/hero-video.MP4';
+import restaurants from './assets/data/restaurants';
+// import dishes from './assets/data/dishes';
 
 function App() {
   return (
     <div className='App'>
-      <div className='hero'>
-        <div>
-          <CardList />
-        </div>
-        <video className='video-bg' autoPlay muted loop>
-          <source src={video} />
-        </video>
-      </div>
+      <Header video={video} restaurants={restaurants} />
       <Navigation />
-      <div className='pusher'></div>
+      <main>
+        <div className='pusher'></div>
+      </main>
       <Footer />
     </div>
   );

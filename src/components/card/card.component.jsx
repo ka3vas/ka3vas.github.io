@@ -2,9 +2,8 @@ import React from 'react';
 
 import './card.style.scss';
 
-function Card(props) {
-  console.log(props);
-  const { name, phone, img } = props.restaurant;
+function Card({ card }) {
+  const { name, phone, img } = card;
 
   return (
     <div className='card'>

@@ -1,5 +1,7 @@
+@import '../../styles/variables.scss';
+
 .navigation {
   position: sticky;
   top: 0;
-  background: red;
+  background: $mainColor;
 }
