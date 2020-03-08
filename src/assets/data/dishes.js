@@ -1,3 +1,5 @@
+import imgSrc from '../images/sushi.png';
+
 const dishes = [
   {
     title: 'zestawy sushi',
@@ -5,6 +7,7 @@ const dishes = [
     description: '',
     set: [
       {
+        imgSrc: imgSrc,
         title: 'premium set',
         price: 22000,
         quantity: 65,
@@ -14,6 +17,7 @@ const dishes = [
         avaiableFor: ['torun', 'swiecie'],
       },
       {
+        imgSrc: imgSrc,
         title: 'set nigiri',
         price: 4900,
         quantity: 12,
@@ -22,6 +26,7 @@ const dishes = [
         avaiableFor: ['torun', 'swiecie'],
       },
       {
+        imgSrc: imgSrc,
         title: 'set sashimi',
         price: 6800,
         quantity: 20,
@@ -30,6 +35,7 @@ const dishes = [
         avaiableFor: ['torun', 'swiecie'],
       },
       {
+        imgSrc: imgSrc,
         title: 'pokemon set',
         price: 6800,
         quantity: 17,
@@ -39,6 +45,7 @@ const dishes = [
         avaiableFor: ['torun', 'swiecie'],
       },
       {
+        imgSrc: imgSrc,
         title: 'jaki set',
         price: 7800,
         quantity: 24,
@@ -48,6 +55,7 @@ const dishes = [
         avaiableFor: ['torun', 'swiecie'],
       },
       {
+        imgSrc: imgSrc,
         title: 'set z surowych ryb',
         price: 9100,
         quantity: 30,
@@ -57,6 +65,7 @@ const dishes = [
         avaiableFor: ['torun', 'swiecie'],
       },
       {
+        imgSrc: imgSrc,
         title: 'set mix',
         price: 11900,
         quantity: 34,
@@ -66,8 +75,9 @@ const dishes = [
         avaiableFor: ['torun', 'swiecie'],
       },
       {
+        imgSrc: imgSrc,
         title: 'yakuza set',
-        price: 123,
+        price: 12300,
         quantity: 40,
         description:
           'Inari Gunkan Łosoś (2 szt.), Nigiri mix (4 szt.), Sake roll z migdałami (5 szt.), Futomaki Łosoś (6 szt.), Futomaki Krewetka (6 szt.), Hosomaki Łosoś (6 szt.), Hosomaki Tuńczyk (6 szt.), Sake spicy tatar (5 szt.).',
@@ -75,6 +85,7 @@ const dishes = [
         avaiableFor: ['torun', 'swiecie'],
       },
       {
+        imgSrc: imgSrc,
         title: 'sumo set xl',
         price: 14900,
         quantity: 44,
@@ -84,6 +95,7 @@ const dishes = [
         avaiableFor: ['torun', 'swiecie'],
       },
       {
+        imgSrc: imgSrc,
         title: 'sumo set xxl',
         price: 21000,
         quantity: 60,
