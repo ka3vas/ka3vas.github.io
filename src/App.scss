@@ -1,15 +1,20 @@
+@import './styles/_reset.scss';
+// @import './styles/_base.scss';
+
 .hero {
+  position: relative;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(0, 0, 0, 0.5);
+  // background: rgba(0, 0, 0, 0.4);
   color: white;
-  padding: 200px 0;
+  // padding: 200px 0;
   position: relative;
   overflow: hidden;
-  // min-height: 100vh;
-  min-height: 50vh;
+  // min-height: calc(100vh - 75px);
+  min-height: 45vh;
+  // max-height: 600px;
 }
 
 .video-bg {
@@ -24,7 +29,7 @@
 
 .btn {
   padding: 10px 20px;
-  border: 5px;
+  border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
 }
@@ -38,4 +43,24 @@
 
 .pusher {
   height: 200vh;
+}
+
+.fb-icon {
+  display: grid;
+  grid-auto-columns: 1fr;
+  column-gap: 10px;
+
+  position: absolute;
+  // bottom: 25px;
+  top: 25px;
+  right: 25px;
+
+  svg {
+    grid-row: 1;
+    width: 30px;
+    height: 30px;
+    path {
+      fill: rgba(255, 255, 255, 1);
+    }
+  }
 }
