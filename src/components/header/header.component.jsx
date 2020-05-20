@@ -11,11 +11,11 @@ const Header = ({ video, restaurants }) => {
         <FacebookIcon />
         <InstagramkIcon />
       </div>
-      <CardList cardList={restaurants}>
+      {/* <CardList cardList={restaurants}>
         {restaurants.map(restaurant => (
           <Card key={restaurant.id} card={restaurant} />
         ))}
-      </CardList>
+      </CardList> */}
 
       <video className='video-bg' autoPlay muted loop>
         <source src={video} />

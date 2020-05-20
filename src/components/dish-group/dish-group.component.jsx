@@ -3,8 +3,6 @@ import React from 'react';
 import './dish-group.styles.scss';
 
 function DishGroup({ dishSet }) {
-  console.log(dishSet);
-
   const { title, set } = dishSet;
 
   return (
@@ -12,21 +10,14 @@ function DishGroup({ dishSet }) {
       <div className='dish-group'>
         <h2 className='dish-group__title'>{title}</h2>
         <div className='dish-group__wrapper'>
-          {set.map(dish => {
+          {set.map((dish) => {
             const { title, price, quantity, description } = dish;
-
-            console.log(dish.imgSrc);
 
             return (
               <div className='dish-card' key={title}>
                 <div className='dish-card__image'>
                   {dish.imgSrc ? (
-                    <img
-                      src={dish.imgSrc}
-                      width='250'
-                      height='250'
-                      alt='sushi'
-                    />
+                    <img src={dish.imgSrc} height='400' alt='sushi' />
                   ) : null}
                 </div>
                 <h3 className='dish-card__title'>{title}</h3>

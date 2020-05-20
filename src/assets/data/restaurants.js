@@ -27,6 +27,22 @@ const restaurants = [
     closeAt: 21,
     img: kwidzyn,
   },
+  {
+    id: '4',
+    name: 'kwidzyn',
+    phone: '(+48) 575 753 323',
+    openAt: 12,
+    closeAt: 21,
+    img: kwidzyn,
+  },
+  {
+    id: '5',
+    name: 'kwidzyn',
+    phone: '(+48) 575 753 323',
+    openAt: 12,
+    closeAt: 21,
+    img: kwidzyn,
+  },
 ];
 
 export default restaurants;

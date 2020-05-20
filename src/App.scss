@@ -1,5 +1,12 @@
 @import './styles/_reset.scss';
+@import './styles/_variables.scss';
 // @import './styles/_base.scss';
+
+.container {
+  max-width: $maxWidth;
+  padding: 15px;
+  margin: 0 auto;
+}
 
 .hero {
   position: relative;
@@ -15,6 +22,7 @@
   // min-height: calc(100vh - 75px);
   min-height: 45vh;
   // max-height: 600px;
+  z-index: 2;
 }
 
 .video-bg {
@@ -59,6 +67,7 @@
     grid-row: 1;
     width: 30px;
     height: 30px;
+
     path {
       fill: rgba(255, 255, 255, 1);
     }

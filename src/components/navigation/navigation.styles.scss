@@ -1,4 +1,4 @@
-@import '../../styles/variables.scss';
+@import '../../styles/_variables.scss';
 
 .navigation {
   position: sticky;
@@ -7,7 +7,7 @@
   z-index: 2;
 
   nav {
-    max-width: 1020px;
+    max-width: $maxWidth;
     margin: 0 auto;
 
     display: flex;
@@ -20,6 +20,8 @@
       color: white;
       padding-right: 20px;
       font-size: 24px;
+      font-weight: lighter;
+      letter-spacing: 3px;
     }
   }
 }
