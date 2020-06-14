@@ -1,17 +1,19 @@
 import React, { Component } from 'react';
+import { Route, Switch } from 'react-router-dom';
 
 import Header from './components/header/header.component';
 import Navigation from './components/navigation/navigation.component';
-import DishGroup from './components/dish-group/dish-group.component';
+import RestauranPicker from './components/restaurant-picker/restaurant-picker.component';
+import Restaurant from './components/restaurant/restaurant.component';
 import Footer from './components/footer/footer.component';
+
+import Catering from './pages/catering/catering.component';
+
+import restaurants from './assets/data/restaurants';
 
 import './App.scss';
 
 import video from './assets/video/hero-video.MP4';
-import restaurants from './assets/data/restaurants';
-import dishes from './assets/data/dishes';
-
-import set from './assets/data/dishes/set';
 
 class App extends Component {
   constructor(props) {
@@ -38,23 +40,36 @@ class App extends Component {
   render() {
     const { width } = this.state.app;
 
-    console.log('test', dishes);
-
     return (
       <div className='App' style={{ backgroundColor: '#f7fbfb' }}>
         {width > 767 ? (
           <>
-            <Header video={video} restaurants={restaurants} />
+            <Header video={video} />
             <Navigation />
           </>
-        ) : null}
-        <main className='container'>
-          <DishGroup key={set.title} dishSet={set} />
-          {/* {dishes.map((dishSet) => (
-            <DishGroup key={dishSet.title} dishSet={dishSet} />
-          ))} */}
-        </main>
-        <Footer />
+        ) : (
+          <div>Mobile Header with mobile navigation</div>
+        )}
+        <Switch>
+          {restaurants.map((restaurant) => (
+            <Route
+              key={restaurant.id}
+              exact
+              path={`/${restaurant.url}`}
+              render={(props) => (
+                <Restaurant {...props} restaurant={restaurant} />
+              )}
+            />
+          ))}
+          <Route exact path='/catering' component={Catering} />
+          <Route
+            path='/'
+            render={(props) => (
+              <RestauranPicker {...props} restaurants={restaurants} />
+            )}
+          />
+        </Switch>
+        <Footer restaurants={restaurants} />
       </div>
     );
   }

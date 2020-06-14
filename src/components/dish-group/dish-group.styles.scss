@@ -13,7 +13,8 @@
 
   &__wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    // this could change on wider screens
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 35px;
   }
 
@@ -74,7 +75,7 @@
   &__price {
     grid-column: 2;
     grid-row: 4;
-    color: #0099aa;
+    color: #00d1e2;
   }
 
   &__description {
