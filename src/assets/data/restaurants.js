@@ -17,11 +17,11 @@ const restaurants = [
     address: [
       {
         street: 'Jamontta',
-        number: '2b',
+        number: '2B',
       },
     ],
     phone: {
-      directional: '+48',
+      directional: '48',
       number: '512777730',
     },
     workingHours,
@@ -42,11 +42,11 @@ const restaurants = [
     address: [
       {
         street: 'Wojska Polskiego',
-        number: '77c',
+        number: '77C',
       },
     ],
     phone: {
-      directional: '+48',
+      directional: '48',
       number: '799799875',
     },
     workingHours,
@@ -68,11 +68,11 @@ const restaurants = [
     address: [
       {
         street: 'Braterstwa Narodów',
-        number: '40e',
+        number: '40E',
       },
     ],
     phone: {
-      directional: '+48',
+      directional: '48',
       number: '575753323',
     },
     workingHours,
@@ -94,7 +94,7 @@ const restaurants = [
       },
     ],
     phone: {
-      directional: '+48',
+      directional: '48',
       number: '666689244',
     },
     workingHours,
@@ -116,7 +116,7 @@ const restaurants = [
       },
     ],
     phone: {
-      directional: '+48',
+      directional: '48',
       number: '575757626',
     },
     workingHours,

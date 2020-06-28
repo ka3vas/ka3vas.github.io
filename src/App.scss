@@ -2,6 +2,11 @@
 @import './styles/_variables.scss';
 // @import './styles/_base.scss';
 
+html,
+body {
+  height: 100vh;
+}
+
 .container {
   max-width: $maxWidth;
   padding: 15px;
@@ -51,4 +56,11 @@
 
 .pusher {
   height: 200vh;
+}
+
+.blinder {
+  background-color: rgb(247, 251, 251);
+  height: 25px;
+  position: sticky;
+  top: 0;
 }

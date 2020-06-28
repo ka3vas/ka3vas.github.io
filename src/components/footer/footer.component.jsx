@@ -20,13 +20,12 @@ function Footer(props) {
             ))}
           </ul>
         </div> */}
-        <div className='pages'>
+        {/* <div className='pages'>
           <h5>O nas:</h5>
           <ul>
-            {/* <li href='/about'>Kontakt</li> */}
             <Link to='/about'>Catering</Link>
           </ul>
-        </div>
+        </div> */}
       </div>
       {/* this will go to restaurant specific footer */}
       {/* <div className='social'>

@@ -48,6 +48,7 @@ class App extends Component {
           <>
             <Header video={video} />
             <Navigation />
+            <div className='blinder'></div>
           </>
         ) : (
           <div>Mobile Header with mobile navigation</div>

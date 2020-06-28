@@ -1,0 +1,73 @@
+.restaurant-card {
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        width: 300px;
+        margin: 0 auto;
+        background: white;
+        border-radius: 5px;
+        padding: 30px 10px
+    }
+
+    &__info {
+        padding-left: 15px;
+        width: 100%;
+
+        svg {
+            height: 25px;
+        }
+
+
+        .card-info {
+            &__city {
+                text-transform: uppercase;
+                text-decoration: none;
+                font-size: 18px;
+                letter-spacing: 1px;
+                font-weight: bold;
+                color: #7DCC21;
+                line-height: 1;
+            }
+
+            &__phone {
+                font-size: 16px;
+                line-height: 35px;
+
+                a {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-decoration: none;
+                    color: white;
+                    background: #00d1e2;
+                    padding: 10px;
+                    border-radius: 15px;
+
+                    .btn--round {
+                        // background: red;
+                        // width: 35px;
+                        // height: 35px;
+                        // border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding-right: 5px;
+                    }
+
+                    svg {
+                        path {
+                            fill: white
+                        }
+                    }
+                }
+            }
+
+            &__address {
+                font-size: 14px;
+                line-height: 1;
+                color: grey;
+                padding: 0 0 10px;
+            }
+        }
+    }
+}

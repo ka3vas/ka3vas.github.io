@@ -1,14 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
+import './restaurant-picker.styles.scss';
+
+import RestaurantCard from '../restaurant-card/restaurant-card.component';
 
 const RestaurantPicker = (props) => {
   return (
-    <div>
-      <h2>Restaurant component</h2>
+    <div className='restaurant-picker__wrapper'>
       <ul>
         {props.restaurants.map((restaurant) => (
           <li key={restaurant.id}>
-            <Link to={restaurant.url}>{restaurant.city}</Link>
+            <RestaurantCard restaurant={restaurant} />
           </li>
         ))}
       </ul>
