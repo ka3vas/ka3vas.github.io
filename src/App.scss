@@ -52,24 +52,3 @@
 .pusher {
   height: 200vh;
 }
-
-.fb-icon {
-  display: grid;
-  grid-auto-columns: 1fr;
-  column-gap: 10px;
-
-  position: absolute;
-  // bottom: 25px;
-  top: 25px;
-  right: 25px;
-
-  svg {
-    grid-row: 1;
-    width: 30px;
-    height: 30px;
-
-    path {
-      fill: rgba(255, 255, 255, 1);
-    }
-  }
-}

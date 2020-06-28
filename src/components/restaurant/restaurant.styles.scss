@@ -1,0 +1,19 @@
+@import '../../styles/_variables.scss';
+
+.restaurant-display {
+    max-width: $maxWidth;
+    margin: 0 auto;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+
+    &_filters {
+        grid-column: 1;
+    }
+
+    &_dishes {
+        grid-column: 2 / span 3;
+    }
+}

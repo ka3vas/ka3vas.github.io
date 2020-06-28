@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
+import { connect } from 'react-redux';
 
 import Header from './components/header/header.component';
 import Navigation from './components/navigation/navigation.component';
@@ -10,6 +11,7 @@ import Footer from './components/footer/footer.component';
 import Catering from './pages/catering/catering.component';
 
 import restaurants from './assets/data/restaurants';
+// import restaurants from './assets/data/restaurants.json';
 
 import './App.scss';
 
@@ -75,4 +77,13 @@ class App extends Component {
   }
 }
 
-export default App;
+const mapStateToProps = (state) => ({
+  currentRestaurant: state.currentRestaurant,
+});
+
+// const mapDispatchToProps = dispatch => ({
+//   setCurrentRestaurant: restaurant => dispatch(setCurrentRestaurant(restaurant))
+// });
+
+export default connect(mapStateToProps)(App);
+// export default App;

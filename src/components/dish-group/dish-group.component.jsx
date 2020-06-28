@@ -2,15 +2,14 @@ import React from 'react';
 
 import './dish-group.styles.scss';
 
-function DishGroup({ dishSet }) {
-  const { title, set } = dishSet;
-
+function DishGroup(props) {
   return (
     <div className='dish-group__container'>
       <div className='dish-group'>
-        <h2 className='dish-group__title'>{title}</h2>
+        <h2 className='dish-group__title'>{props.dishes[0].category}</h2>
+        {<p>{props.description ? props.description[0].description : null}</p>}
         <div className='dish-group__wrapper'>
-          {set.map((dish) => {
+          {props.dishes.map((dish) => {
             const { title, price, quantity, description } = dish;
 
             return (

@@ -1,16 +1,16 @@
-import rollEbi from '../../images/dishes/roll/ebi_sake_roll.png';
-import rollTataki from '../../images/dishes/roll/tataki_tuna_mexiko_roll.png';
-import rollKalifornia from '../../images/dishes/roll/kalifornia_z_krewetkami.png';
-import rollFujiyama from '../../images/dishes/roll/fujiyama_roll.png';
-import rollMandarin from '../../images/dishes/roll/mandarin_roll.png';
-import rollGreenDragon from '../../images/dishes/roll/green_dragon.png';
-import rollBlackDragon from '../../images/dishes/roll/black_dragon.png';
-import rollMigdal from '../../images/dishes/roll/sake_roll_z_migdalami.png';
-import rollInari from '../../images/dishes/roll/inari_salmon_roll.png';
-import rollFreshSalmon from '../../images/dishes/roll/fresh_salmon_roll.png';
-import rollRainbow from '../../images/dishes/roll/rainbow_roll.png';
+import rollEbi from '../../../images/dishes/roll/ebi_sake_roll.png';
+import rollTataki from '../../../images/dishes/roll/tataki_tuna_mexiko_roll.png';
+import rollKalifornia from '../../../images/dishes/roll/kalifornia_z_krewetkami.png';
+import rollFujiyama from '../../../images/dishes/roll/fujiyama_roll.png';
+import rollMandarin from '../../../images/dishes/roll/mandarin_roll.png';
+import rollGreenDragon from '../../../images/dishes/roll/green_dragon.png';
+import rollBlackDragon from '../../../images/dishes/roll/black_dragon.png';
+import rollMigdal from '../../../images/dishes/roll/sake_roll_z_migdalami.png';
+import rollInari from '../../../images/dishes/roll/inari_salmon_roll.png';
+import rollFreshSalmon from '../../../images/dishes/roll/fresh_salmon_roll.png';
+import rollRainbow from '../../../images/dishes/roll/rainbow_roll.png';
 
-const roll = {
+const defaultRoll = {
   title: 'fusion roll',
   subtitle: '(zawsze 8 szt.)',
   description: '',
@@ -127,4 +127,4 @@ const roll = {
   ],
 };
 
-export default roll;
+export default defaultRoll;

@@ -1,17 +1,113 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { connect } from 'react-redux';
+import {
+  setCurrentRestaurant,
+  setCurrentDishes,
+} from '../../redux/restaurant/restaurant.actions';
+
+import './restaurant.styles.scss';
+
+import DishGroup from '../dish-group/dish-group.component';
+import CollectionFilter from '../collection-filter/collection-filter.component';
 
 class Restaurant extends React.Component {
+  componentDidMount() {
+    const { setCurrentRestaurant, restaurant, setCurrentDishes } = this.props;
+
+    setCurrentRestaurant(restaurant);
+    setCurrentDishes(restaurant.dishes);
+  }
+
+  componentWillUnmount() {
+    const { setCurrentRestaurant, setCurrentDishes } = this.props;
+
+    setCurrentRestaurant(null);
+    setCurrentDishes([]);
+  }
+
+  filterByCategory = (currentDishes, category) =>
+    currentDishes.filter((dish) => dish.category === category);
+
+  testFunction = () => console.log('test');
+
+  handleClick = (dishes, price) => {
+    const lessThanDishes = dishes.filter((dish) => dish.price < price);
+    this.props.setCurrentDishes(lessThanDishes);
+  };
+
+  getValue = (value) => {
+    this.props.setCurrentDishes(value);
+  };
+
   render() {
-    const { city } = this.props.restaurant;
+    const { filterByCategory } = this;
+    const { restaurant } = this.props;
+    const { dishes } = this.props.currentRestaurant;
+
+    const currentDishes = dishes;
+    // const currentDishes = dishes.sort((a, b) => a.price - b.price);
+    // const currentDishes = dishes.filter((dish) => dish.price < 10000);
+    // const currentDishes = dishes.filter((dish) => dish.category === 'poke');
+
+    const set = filterByCategory(currentDishes, 'set');
+    const poke = filterByCategory(currentDishes, 'poke');
+    const roll = filterByCategory(currentDishes, 'roll');
 
     return (
-      <div>
+      <div className='restaurant-display'>
         <Link to='/'>Z powrotem</Link>
-        <h3>{city}</h3>
+        <button
+          onClick={() => {
+            this.handleClick(dishes, 3000);
+          }}
+        >
+          filter by price
+        </button>
+        <h3>{restaurant.city}</h3>
+
+        <div className='menu'>
+          <div className='menu_filters'>
+            <CollectionFilter
+              handleClick={this.getValue}
+              currentArr={dishes}
+              defaultArr={restaurant.dishes}
+            />
+          </div>
+          <div className='menu_dishes'>
+            {set.length > 0 ? (
+              <DishGroup
+                dishes={set}
+                description={restaurant.categoryDescription.filter(
+                  (category) => category.type === 'set'
+                )}
+              />
+            ) : null}
+            {poke.length > 0 ? (
+              <DishGroup
+                dishes={poke}
+                description={restaurant.categoryDescription.filter(
+                  (category) => category.type === 'set'
+                )}
+              />
+            ) : null}
+            {roll.length > 0 ? <DishGroup dishes={roll} /> : null}
+          </div>
+        </div>
       </div>
     );
   }
 }
 
-export default Restaurant;
+const mapStateToProps = (state) => ({
+  currentRestaurant: state.currentRestaurant,
+});
+
+const mapDispatchToProps = (dispatch) => ({
+  setCurrentRestaurant: (restaurant) =>
+    dispatch(setCurrentRestaurant(restaurant)),
+
+  setCurrentDishes: (allDishes) => dispatch(setCurrentDishes(allDishes)),
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(Restaurant);

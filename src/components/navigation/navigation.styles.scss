@@ -2,17 +2,31 @@
 
 .navigation {
   position: sticky;
-  top: 0;
+  top: 25px;
   background: $mainColor;
   z-index: 2;
 
   nav {
     max-width: $maxWidth;
     margin: 0 auto;
-
+    height: 100px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     // text-shadow: 1px 1px 1px black;
+
+    .logo {
+      display: flex;
+
+      img {
+        padding: 0 15px;
+      }
+
+      a {
+        display: flex;
+        align-items: center;
+      }
+    }
 
     a {
       text-decoration: none;
@@ -22,6 +36,27 @@
       font-size: 24px;
       font-weight: lighter;
       letter-spacing: 3px;
+    }
+  }
+}
+
+.social {
+  display: grid;
+  grid-auto-columns: 1fr;
+  column-gap: 10px;
+
+  // position: absolute;
+  // // bottom: 25px;
+  // top: 25px;
+  // right: 25px;
+
+  svg {
+    grid-row: 1;
+    width: 30px;
+    height: 30px;
+
+    path {
+      fill: rgba(255, 255, 255, 1);
     }
   }
 }
