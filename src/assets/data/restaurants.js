@@ -2,6 +2,8 @@
 import swiecie from '../images/swiecie.png';
 import torunLogo from '../images/torun.png';
 import kwidzyn from '../images/kwidzyn.png';
+import brodnica from '../images/brodnica.png';
+import chojnice from '../images/chojnice.png';
 
 import workingHours from './working-hours/default';
 
@@ -101,7 +103,7 @@ const restaurants = [
     email: 'sushipokegobrodnica@gmail.com',
     instagram: 'https://www.instagram.com/sushipokego_brodnica/',
     facebook: 'https://www.facebook.com/sushipokegobrodnica/',
-    img: kwidzyn,
+    img: brodnica,
     dishes: [],
     categoryDescription: [],
   },
@@ -123,7 +125,7 @@ const restaurants = [
     email: 'gastroteampl@gmail.com',
     instagram: 'https://www.instagram.com/sushipokego_chojnice/',
     facebook: 'https://www.facebook.com/Sushipokego-Chojnice-109810790707623/',
-    img: kwidzyn,
+    img: chojnice,
     dishes: [],
     categoryDescription: [],
   },

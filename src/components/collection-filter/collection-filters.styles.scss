@@ -1,0 +1,32 @@
+.menu-filters {
+    &--sticky {
+        position: sticky;
+        top: 180px;
+        font-size: 16px;
+        background: white;
+        padding: 5px 5px 5px 40px;
+        border-radius: 2px;
+
+        .category {
+            list-style: none;
+            padding-left: 0;
+
+            &>li {
+                padding: 20px 0 0 0;
+            }
+        }
+
+        .subcategory {
+            list-style: inside;
+            padding: 0;
+            padding-top: 10px;
+
+            button {
+                border: none;
+                background: none;
+                font-size: 16px;
+                cursor: pointer;
+            }
+        }
+    }
+}

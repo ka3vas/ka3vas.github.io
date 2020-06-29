@@ -22,7 +22,7 @@ const defaultSet = [
   {
     imgSrc: setSashimi,
     category: 'set',
-    title: 'a set sashimi',
+    title: 'set sashimi',
     price: 6800,
     quantity: 20,
     description: 'Mix sashimi (łosoś, tuńczyk, węgorz, krewetka).',
@@ -31,7 +31,7 @@ const defaultSet = [
   {
     imgSrc: imgSrc,
     category: 'set',
-    title: 'aa pokemon set',
+    title: 'pokemon set',
     price: 6800,
     quantity: 17,
     description:
@@ -61,7 +61,7 @@ const defaultSet = [
   {
     imgSrc: setMix,
     category: 'set',
-    title: 'bb set mix',
+    title: 'set mix',
     price: 11900,
     quantity: 34,
     description:
@@ -71,7 +71,7 @@ const defaultSet = [
   {
     imgSrc: setYakuza,
     category: 'set',
-    title: 'zz yakuza set',
+    title: 'yakuza set',
     price: 12300,
     quantity: 40,
     description:

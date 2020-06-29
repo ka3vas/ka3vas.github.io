@@ -41,22 +41,45 @@
 }
 
 .social {
-  display: grid;
-  grid-auto-columns: 1fr;
-  column-gap: 10px;
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+
+    svg {
+      grid-row: 1;
+      width: 35px;
+      height: 35px;
+
+      path {
+        fill: rgba(255, 255, 255, 1);
+      }
+    }
+  }
+
+  &__city {
+    padding-right: 10px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 3px;
+  }
+
+  // display: grid;
+  // grid-auto-columns: 1fr;
+  // column-gap: 10px;
 
   // position: absolute;
   // // bottom: 25px;
   // top: 25px;
   // right: 25px;
 
-  svg {
-    grid-row: 1;
-    width: 30px;
-    height: 30px;
-
-    path {
-      fill: rgba(255, 255, 255, 1);
-    }
+  a {
+    height: 50px;
+    display: flex;
+    align-items: center;
   }
+
+
 }

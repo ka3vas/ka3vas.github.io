@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import './collection-filters.styles.scss';
+
 class CollectionFilter extends Component {
   constructor(props) {
     super(props);
@@ -60,12 +62,11 @@ class CollectionFilter extends Component {
     const { currentArr, defaultArr, handleClick } = this.props;
     console.log('props', this.props);
     return (
-      <div>
-        <div>Filtry:</div>
-        <ul>
+      <div className='menu-filters--sticky'>
+        <ul className='category'>
           <li>
             <div>Alfabetycznie:</div>
-            <ul>
+            <ul className='subcategory'>
               <li>
                 <button onClick={() => this.filterAZ(defaultArr, handleClick)}>
                   A-Z
@@ -80,7 +81,7 @@ class CollectionFilter extends Component {
           </li>
           <li>
             <div>Cena:</div>
-            <ul>
+            <ul className='subcategory'>
               <li>
                 <button
                   onClick={() => this.filterByPriceUp(defaultArr, handleClick)}

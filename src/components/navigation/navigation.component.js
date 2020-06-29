@@ -38,26 +38,24 @@ function Navigation(props) {
             </>
           ) : null}
         </div>
-        <div className=''>
+        <div className='social__wrapper'>
           {restaurant ? (
             <>
-              <div className='city'>{restaurant.city}</div>
-              <div className='social'>
-                <a
-                  href={restaurant.facebook}
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  <FacebookIcon />
-                </a>
-                <a
-                  href={restaurant.instagram}
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  <InstagramkIcon />
-                </a>
-              </div>
+              <div className='social__city'>{restaurant.city}</div>
+              <a
+                href={restaurant.facebook}
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <FacebookIcon />
+              </a>
+              <a
+                href={restaurant.instagram}
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <InstagramkIcon />
+              </a>
             </>
           ) : null}
         </div>
