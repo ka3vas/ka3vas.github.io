@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/gp-sushi/static/css/main.ff50c2d9.chunk.css",
-    "main.js": "/gp-sushi/static/js/main.81553138.chunk.js",
-    "main.js.map": "/gp-sushi/static/js/main.81553138.chunk.js.map",
+    "main.css": "/gp-sushi/static/css/main.0c984450.chunk.css",
+    "main.js": "/gp-sushi/static/js/main.106c76b2.chunk.js",
+    "main.js.map": "/gp-sushi/static/js/main.106c76b2.chunk.js.map",
     "runtime-main.js": "/gp-sushi/static/js/runtime-main.44d5b21e.js",
     "runtime-main.js.map": "/gp-sushi/static/js/runtime-main.44d5b21e.js.map",
     "static/js/2.16a8c43c.chunk.js": "/gp-sushi/static/js/2.16a8c43c.chunk.js",
     "static/js/2.16a8c43c.chunk.js.map": "/gp-sushi/static/js/2.16a8c43c.chunk.js.map",
     "index.html": "/gp-sushi/index.html",
-    "precache-manifest.54621810729f8f3bfc22d822b37a6510.js": "/gp-sushi/precache-manifest.54621810729f8f3bfc22d822b37a6510.js",
+    "precache-manifest.64fcf59993fd9129fa4c90237246fc47.js": "/gp-sushi/precache-manifest.64fcf59993fd9129fa4c90237246fc47.js",
     "service-worker.js": "/gp-sushi/service-worker.js",
-    "static/css/main.ff50c2d9.chunk.css.map": "/gp-sushi/static/css/main.ff50c2d9.chunk.css.map",
+    "static/css/main.0c984450.chunk.css.map": "/gp-sushi/static/css/main.0c984450.chunk.css.map",
     "static/js/2.16a8c43c.chunk.js.LICENSE.txt": "/gp-sushi/static/js/2.16a8c43c.chunk.js.LICENSE.txt",
     "static/media/black_dragon.png": "/gp-sushi/static/media/black_dragon.251f707f.png",
     "static/media/brodnica.png": "/gp-sushi/static/media/brodnica.1029f0c0.png",
@@ -52,7 +52,7 @@
   "entrypoints": [
     "static/js/runtime-main.44d5b21e.js",
     "static/js/2.16a8c43c.chunk.js",
-    "static/css/main.ff50c2d9.chunk.css",
-    "static/js/main.81553138.chunk.js"
+    "static/css/main.0c984450.chunk.css",
+    "static/js/main.106c76b2.chunk.js"
   ]
 }
