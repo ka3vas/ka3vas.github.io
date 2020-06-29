@@ -9,6 +9,7 @@ import {
 import './restaurant.styles.scss';
 
 import DishGroup from '../dish-group/dish-group.component';
+import DishGroupRoll from '../dish-group-roll/dish-group-roll.component';
 import CollectionFilter from '../collection-filter/collection-filter.component';
 
 class Restaurant extends React.Component {
@@ -69,14 +70,6 @@ class Restaurant extends React.Component {
             />
           </div>
           <div className='menu_dishes'>
-            {set.length > 0 ? (
-              <DishGroup
-                dishes={set}
-                description={restaurant.categoryDescription.filter(
-                  (category) => category.type === 'set'
-                )}
-              />
-            ) : null}
             {poke.length > 0 ? (
               <DishGroup
                 dishes={poke}
@@ -85,7 +78,15 @@ class Restaurant extends React.Component {
                 )}
               />
             ) : null}
-            {roll.length > 0 ? <DishGroup dishes={roll} /> : null}
+            {set.length > 0 ? (
+              <DishGroup
+                dishes={set}
+                description={restaurant.categoryDescription.filter(
+                  (category) => category.type === 'set'
+                )}
+              />
+            ) : null}
+            {roll.length > 0 ? <DishGroupRoll dishes={roll} /> : null}
             {tempura.length > 0 ? <DishGroup dishes={tempura} /> : null}
           </div>
         </div>

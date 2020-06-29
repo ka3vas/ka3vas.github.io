@@ -3,7 +3,7 @@ import pokeLosos from '../../../images/dishes/poke/poke_losos.png';
 import pokeTatarLosos from '../../../images/dishes/poke/poke_tatar_losos.png';
 import pokeMix from '../../../images/dishes/poke/poke_mix_fish.png';
 import pokeKrewetka from '../../../images/dishes/poke/poke_krewetka.png';
-import pokeSurimi from '../../../images/dishes/poke/poke.png';
+// import pokeSurimi from '../../../images/dishes/poke/poke.png';
 import pokeWege from '../../../images/dishes/poke/poke_wege_tofu.png';
 
 const defaultPoke = [
@@ -62,17 +62,17 @@ const defaultPoke = [
     featured: false,
     avaiableFor: ['torun', 'swiecie'],
   },
-  {
-    imgSrc: pokeSurimi,
-    category: 'poke',
-    title: 'poke z surimi',
-    price: 2500,
-    quantity: null,
-    description:
-      'Miska z firmową werjsą surimi serwiwana z ryżem, świeżymi warzywami (fasola edamame, świeży ogórek, czerwona cebula, pomidory, sałatka z glonów, rzodkiewka, awokado) + sos do wyboru.',
-    featured: false,
-    avaiableFor: ['torun', 'swiecie'],
-  },
+  // {
+  //   imgSrc: pokeSurimi,
+  //   category: 'poke',
+  //   title: 'poke z surimi',
+  //   price: 2500,
+  //   quantity: null,
+  //   description:
+  //     'Miska z firmową werjsą surimi serwiwana z ryżem, świeżymi warzywami (fasola edamame, świeży ogórek, czerwona cebula, pomidory, sałatka z glonów, rzodkiewka, awokado) + sos do wyboru.',
+  //   featured: false,
+  //   avaiableFor: ['swiecie'],
+  // },
   {
     imgSrc: pokeWege,
     category: 'poke',

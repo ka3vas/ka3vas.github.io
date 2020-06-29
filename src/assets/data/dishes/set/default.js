@@ -7,6 +7,8 @@ import setMix from '../../../images/dishes/set/mix_set.png';
 import setYakuza from '../../../images/dishes/set/yakuza_set.png';
 import setXl from '../../../images/dishes/set/xl_set.png';
 import setXxl from '../../../images/dishes/set/xxl_set.png';
+import pokemon from '../../../images/dishes/set/pokemon_set.png';
+import setSurowychRyb from '../../../images/dishes/set/set_surowych_ryb.png';
 
 const defaultSet = [
   {
@@ -29,7 +31,7 @@ const defaultSet = [
     featured: false,
   },
   {
-    imgSrc: imgSrc,
+    imgSrc: pokemon,
     category: 'set',
     title: 'pokemon set',
     price: 6800,
@@ -49,7 +51,7 @@ const defaultSet = [
     featured: false,
   },
   {
-    imgSrc: imgSrc,
+    imgSrc: setSurowychRyb,
     category: 'set',
     title: 'set z surowych ryb',
     price: 9100,

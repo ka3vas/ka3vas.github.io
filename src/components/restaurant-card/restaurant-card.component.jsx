@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import './restaurant-card.styles.scss';
 import PhoneIcon from '../../assets/icons/phone.icon';
-import RestaurantIcon from '../../assets/icons/restaurant.icon';
+// import RestaurantIcon from '../../assets/icons/restaurant.icon';
 
 const RestaurantCard = ({ restaurant }) => {
   console.log(restaurant);

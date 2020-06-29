@@ -59,7 +59,8 @@ class CollectionFilter extends Component {
   };
 
   render() {
-    const { currentArr, defaultArr, handleClick } = this.props;
+    // currentArr,
+    const { defaultArr, handleClick } = this.props;
     console.log('props', this.props);
     return (
       <div className='menu-filters--sticky'>

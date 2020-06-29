@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 // import FacebookIcon from '../../assets/icons/facebook.icon-component';
 // import InstagramkIcon from '../../assets/icons/instagram.icon-component';

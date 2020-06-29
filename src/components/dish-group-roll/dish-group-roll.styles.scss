@@ -1,0 +1,12 @@
+.dish-group-roll {
+    &__wrapper {
+        display: grid;
+        // this could change on wider screens
+        grid-template-columns: 1fr 1fr;
+        gap: 35px;
+
+        // .dish-card__description {
+        //     grid-column: 1;
+        // }
+    }
+}
