@@ -3,6 +3,7 @@
 .restaurant-display {
     max-width: $maxWidth;
     margin: 0 auto;
+    padding: 0 10px;
 
     .go-back {
         text-align: right;
@@ -17,9 +18,13 @@
 }
 
 .menu {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    gap: 0 35px;
+    // padding: 0 10px;
+
+    @media screen and (min-width: 1000px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 0 35px;
+    }
 
     &_filters {
         grid-column: 1;

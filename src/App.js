@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 
 import Header from './components/header/header.component';
@@ -15,7 +15,7 @@ import restaurants from './assets/data/restaurants';
 
 import './App.scss';
 
-import video from './assets/video/hero-video.MP4';
+import video from './assets/video/hero-video.mp4';
 
 class App extends Component {
   constructor(props) {
@@ -51,7 +51,9 @@ class App extends Component {
             <div className='blinder'></div>
           </>
         ) : (
-          <div>Mobile Header with mobile navigation</div>
+          <Link to='/'>
+            <div>Mobile Header with mobile navigation</div>
+          </Link>
         )}
         <Switch>
           {restaurants.map((restaurant) => (

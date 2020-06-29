@@ -53,7 +53,7 @@ class Restaurant extends React.Component {
 
     const set = filterByCategory(currentDishes, 'set');
     const poke = filterByCategory(currentDishes, 'poke');
-    const roll = filterByCategory(currentDishes, 'roll');
+    // const roll = filterByCategory(currentDishes, 'roll');
     const tempura = filterByCategory(currentDishes, 'tempura');
 
     return (
@@ -86,7 +86,7 @@ class Restaurant extends React.Component {
                 )}
               />
             ) : null}
-            {roll.length > 0 ? <DishGroupRoll dishes={roll} /> : null}
+            {/* {roll.length > 0 ? <DishGroupRoll dishes={roll} /> : null} */}
             {tempura.length > 0 ? <DishGroup dishes={tempura} /> : null}
           </div>
         </div>
