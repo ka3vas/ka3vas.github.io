@@ -32,6 +32,7 @@ const restaurants = [
     facebook: 'https://www.facebook.com/sushipokego/',
     img: torunLogo,
     dishes: torunDishes,
+    categoryImage: '',
     categoryDescription: [
       { type: 'set', description: '--- OPIS ---' },
       { type: 'poke', description: '--- OPIS ---' },
@@ -58,6 +59,7 @@ const restaurants = [
       'https://www.facebook.com/Sushipokego-%C5%9Awiecie-103710677660932/',
     img: swiecie,
     dishes: swiecieDishes,
+    categoryImage: '',
     categoryDescription: [
       { type: 'set', description: '--- OPIS ---' },
       { type: 'poke', description: '--- OPIS ---' },
@@ -83,6 +85,7 @@ const restaurants = [
     facebook: 'https://www.facebook.com/Sushipokego_kwidzyn-110008450535199/',
     img: kwidzyn,
     dishes: [],
+    categoryImage: '',
     categoryDescription: [],
   },
   {
@@ -105,6 +108,7 @@ const restaurants = [
     facebook: 'https://www.facebook.com/sushipokegobrodnica/',
     img: brodnica,
     dishes: [],
+    categoryImage: '',
     categoryDescription: [],
   },
   {
@@ -127,6 +131,7 @@ const restaurants = [
     facebook: 'https://www.facebook.com/Sushipokego-Chojnice-109810790707623/',
     img: chojnice,
     dishes: [],
+    categoryImage: '',
     categoryDescription: [],
   },
 ];

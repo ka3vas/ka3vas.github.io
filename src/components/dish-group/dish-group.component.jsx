@@ -15,9 +15,7 @@ function DishGroup(props) {
             return (
               <div className='dish-card' key={title}>
                 <div className='dish-card__image'>
-                  {dish.imgSrc ? (
-                    <img src={dish.imgSrc} height='400' alt='sushi' />
-                  ) : null}
+                  {dish.imgSrc ? <img src={dish.imgSrc} alt='sushi' /> : null}
                 </div>
                 <h3 className='dish-card__title'>{title}</h3>
                 <div className='dish-card__price'>
