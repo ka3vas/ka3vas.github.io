@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5c27c53ef0afd903e3f5aae48c5ba9e4",
+    "revision": "fc8aaacacd91693605f29d4e94622959",
     "url": "/gp-sushi/index.html"
   },
   {
-    "revision": "8c50071234c9a9523011",
-    "url": "/gp-sushi/static/css/main.9b625548.chunk.css"
+    "revision": "8bc4eea04e79104a4eeb",
+    "url": "/gp-sushi/static/css/main.de2e4bd4.chunk.css"
   },
   {
     "revision": "25b1cd4b52e7fe0f72de",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gp-sushi/static/js/2.16a8c43c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8c50071234c9a9523011",
+    "revision": "8bc4eea04e79104a4eeb",
     "url": "/gp-sushi/static/js/main.106c76b2.chunk.js"
   },
   {
