@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/gp-sushi/static/css/main.ef63c203.chunk.css",
-    "main.js": "/gp-sushi/static/js/main.f833434d.chunk.js",
-    "main.js.map": "/gp-sushi/static/js/main.f833434d.chunk.js.map",
+    "main.js": "/gp-sushi/static/js/main.af3d4dc6.chunk.js",
+    "main.js.map": "/gp-sushi/static/js/main.af3d4dc6.chunk.js.map",
     "runtime-main.js": "/gp-sushi/static/js/runtime-main.44d5b21e.js",
     "runtime-main.js.map": "/gp-sushi/static/js/runtime-main.44d5b21e.js.map",
     "static/js/2.c827e4c4.chunk.js": "/gp-sushi/static/js/2.c827e4c4.chunk.js",
     "static/js/2.c827e4c4.chunk.js.map": "/gp-sushi/static/js/2.c827e4c4.chunk.js.map",
     "index.html": "/gp-sushi/index.html",
-    "precache-manifest.e86cbf28993e31f7efbae70b8ffd62f4.js": "/gp-sushi/precache-manifest.e86cbf28993e31f7efbae70b8ffd62f4.js",
+    "precache-manifest.4195af9bce41dcdda50245d0dc962ad8.js": "/gp-sushi/precache-manifest.4195af9bce41dcdda50245d0dc962ad8.js",
     "service-worker.js": "/gp-sushi/service-worker.js",
     "static/css/main.ef63c203.chunk.css.map": "/gp-sushi/static/css/main.ef63c203.chunk.css.map",
     "static/js/2.c827e4c4.chunk.js.LICENSE.txt": "/gp-sushi/static/js/2.c827e4c4.chunk.js.LICENSE.txt",
@@ -19,7 +19,7 @@
     "static/media/fresh_salmon_roll.png": "/gp-sushi/static/media/fresh_salmon_roll.1aeea53d.png",
     "static/media/fujiyama_roll.png": "/gp-sushi/static/media/fujiyama_roll.15796bab.png",
     "static/media/green_dragon.png": "/gp-sushi/static/media/green_dragon.74e0f9ad.png",
-    "static/media/hero-video.MP4": "/gp-sushi/static/media/hero-video.5011ab5f.MP4",
+    "static/media/hero-video.mp4": "/gp-sushi/static/media/hero-video.ff011375.mp4",
     "static/media/inari_salmon_roll.png": "/gp-sushi/static/media/inari_salmon_roll.eaa1827f.png",
     "static/media/jaki_set.png": "/gp-sushi/static/media/jaki_set.a43bd309.png",
     "static/media/kalifornia_z_krewetkami.png": "/gp-sushi/static/media/kalifornia_z_krewetkami.726ff09a.png",
@@ -53,6 +53,6 @@
     "static/js/runtime-main.44d5b21e.js",
     "static/js/2.c827e4c4.chunk.js",
     "static/css/main.ef63c203.chunk.css",
-    "static/js/main.f833434d.chunk.js"
+    "static/js/main.af3d4dc6.chunk.js"
   ]
 }
