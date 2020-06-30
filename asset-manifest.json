@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/gp-sushi/static/css/main.00ba6307.chunk.css",
-    "main.js": "/gp-sushi/static/js/main.40decc5b.chunk.js",
-    "main.js.map": "/gp-sushi/static/js/main.40decc5b.chunk.js.map",
+    "main.css": "/gp-sushi/static/css/main.f57850eb.chunk.css",
+    "main.js": "/gp-sushi/static/js/main.18fc2f86.chunk.js",
+    "main.js.map": "/gp-sushi/static/js/main.18fc2f86.chunk.js.map",
     "runtime-main.js": "/gp-sushi/static/js/runtime-main.44d5b21e.js",
     "runtime-main.js.map": "/gp-sushi/static/js/runtime-main.44d5b21e.js.map",
     "static/css/2.9905d55a.chunk.css": "/gp-sushi/static/css/2.9905d55a.chunk.css",
     "static/js/2.392f2f1b.chunk.js": "/gp-sushi/static/js/2.392f2f1b.chunk.js",
     "static/js/2.392f2f1b.chunk.js.map": "/gp-sushi/static/js/2.392f2f1b.chunk.js.map",
     "index.html": "/gp-sushi/index.html",
-    "precache-manifest.0e9ce6e126221b038084d8d74e57f564.js": "/gp-sushi/precache-manifest.0e9ce6e126221b038084d8d74e57f564.js",
+    "precache-manifest.4c39538a202d36bb74a9fc3ed07e1b7d.js": "/gp-sushi/precache-manifest.4c39538a202d36bb74a9fc3ed07e1b7d.js",
     "service-worker.js": "/gp-sushi/service-worker.js",
     "static/css/2.9905d55a.chunk.css.map": "/gp-sushi/static/css/2.9905d55a.chunk.css.map",
-    "static/css/main.00ba6307.chunk.css.map": "/gp-sushi/static/css/main.00ba6307.chunk.css.map",
+    "static/css/main.f57850eb.chunk.css.map": "/gp-sushi/static/css/main.f57850eb.chunk.css.map",
     "static/js/2.392f2f1b.chunk.js.LICENSE.txt": "/gp-sushi/static/js/2.392f2f1b.chunk.js.LICENSE.txt",
     "static/media/black_dragon.png": "/gp-sushi/static/media/black_dragon.251f707f.png",
     "static/media/brodnica.png": "/gp-sushi/static/media/brodnica.1029f0c0.png",
@@ -55,7 +55,7 @@
     "static/js/runtime-main.44d5b21e.js",
     "static/css/2.9905d55a.chunk.css",
     "static/js/2.392f2f1b.chunk.js",
-    "static/css/main.00ba6307.chunk.css",
-    "static/js/main.40decc5b.chunk.js"
+    "static/css/main.f57850eb.chunk.css",
+    "static/js/main.18fc2f86.chunk.js"
   ]
 }
