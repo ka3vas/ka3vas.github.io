@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "92861c2073403bbf6f3b4aecdfe53216",
+    "revision": "828e1d820d3f55da338cc2d5c5994d2b",
     "url": "/gp-sushi/index.html"
   },
   {
-    "revision": "01858cec462d06408c6a",
-    "url": "/gp-sushi/static/css/main.11c1d822.chunk.css"
+    "revision": "1e91b9c2ca0c5831fb7b",
+    "url": "/gp-sushi/static/css/main.ddbc1c23.chunk.css"
   },
   {
-    "revision": "25b1cd4b52e7fe0f72de",
-    "url": "/gp-sushi/static/js/2.16a8c43c.chunk.js"
+    "revision": "b2a3f33f64e6c39ef21c",
+    "url": "/gp-sushi/static/js/2.dad93a5f.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/gp-sushi/static/js/2.16a8c43c.chunk.js.LICENSE.txt"
+    "url": "/gp-sushi/static/js/2.dad93a5f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "01858cec462d06408c6a",
-    "url": "/gp-sushi/static/js/main.c8ca8b8d.chunk.js"
+    "revision": "1e91b9c2ca0c5831fb7b",
+    "url": "/gp-sushi/static/js/main.1052f8ff.chunk.js"
   },
   {
     "revision": "4a6cbd54d06d9eb244c4",
@@ -53,7 +53,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "ff011375979ab8ddf0823233695b40a5",
-    "url": "/gp-sushi/static/media/hero-video.ff011375.mp4"
+    "url": "/gp-sushi/static/media/hero-video.ff011375.MP4"
   },
   {
     "revision": "eaa1827f35cd9f07de3c36089c7619e6",

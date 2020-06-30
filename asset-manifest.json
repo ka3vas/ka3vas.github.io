@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/gp-sushi/static/css/main.11c1d822.chunk.css",
-    "main.js": "/gp-sushi/static/js/main.c8ca8b8d.chunk.js",
-    "main.js.map": "/gp-sushi/static/js/main.c8ca8b8d.chunk.js.map",
+    "main.css": "/gp-sushi/static/css/main.ddbc1c23.chunk.css",
+    "main.js": "/gp-sushi/static/js/main.1052f8ff.chunk.js",
+    "main.js.map": "/gp-sushi/static/js/main.1052f8ff.chunk.js.map",
     "runtime-main.js": "/gp-sushi/static/js/runtime-main.44d5b21e.js",
     "runtime-main.js.map": "/gp-sushi/static/js/runtime-main.44d5b21e.js.map",
-    "static/js/2.16a8c43c.chunk.js": "/gp-sushi/static/js/2.16a8c43c.chunk.js",
-    "static/js/2.16a8c43c.chunk.js.map": "/gp-sushi/static/js/2.16a8c43c.chunk.js.map",
+    "static/js/2.dad93a5f.chunk.js": "/gp-sushi/static/js/2.dad93a5f.chunk.js",
+    "static/js/2.dad93a5f.chunk.js.map": "/gp-sushi/static/js/2.dad93a5f.chunk.js.map",
     "index.html": "/gp-sushi/index.html",
-    "precache-manifest.76aa181c2ea62d4096c4428d17f5b016.js": "/gp-sushi/precache-manifest.76aa181c2ea62d4096c4428d17f5b016.js",
+    "precache-manifest.e2e6097b175f4f809fdfe95ca57aeea1.js": "/gp-sushi/precache-manifest.e2e6097b175f4f809fdfe95ca57aeea1.js",
     "service-worker.js": "/gp-sushi/service-worker.js",
-    "static/css/main.11c1d822.chunk.css.map": "/gp-sushi/static/css/main.11c1d822.chunk.css.map",
-    "static/js/2.16a8c43c.chunk.js.LICENSE.txt": "/gp-sushi/static/js/2.16a8c43c.chunk.js.LICENSE.txt",
+    "static/css/main.ddbc1c23.chunk.css.map": "/gp-sushi/static/css/main.ddbc1c23.chunk.css.map",
+    "static/js/2.dad93a5f.chunk.js.LICENSE.txt": "/gp-sushi/static/js/2.dad93a5f.chunk.js.LICENSE.txt",
     "static/media/black_dragon.png": "/gp-sushi/static/media/black_dragon.251f707f.png",
     "static/media/brodnica.png": "/gp-sushi/static/media/brodnica.1029f0c0.png",
     "static/media/chojnice.png": "/gp-sushi/static/media/chojnice.beb67462.png",
@@ -19,7 +19,7 @@
     "static/media/fresh_salmon_roll.png": "/gp-sushi/static/media/fresh_salmon_roll.1aeea53d.png",
     "static/media/fujiyama_roll.png": "/gp-sushi/static/media/fujiyama_roll.15796bab.png",
     "static/media/green_dragon.png": "/gp-sushi/static/media/green_dragon.74e0f9ad.png",
-    "static/media/hero-video.mp4": "/gp-sushi/static/media/hero-video.ff011375.mp4",
+    "static/media/hero-video.MP4": "/gp-sushi/static/media/hero-video.ff011375.MP4",
     "static/media/inari_salmon_roll.png": "/gp-sushi/static/media/inari_salmon_roll.eaa1827f.png",
     "static/media/jaki_set.png": "/gp-sushi/static/media/jaki_set.a43bd309.png",
     "static/media/kalifornia_z_krewetkami.png": "/gp-sushi/static/media/kalifornia_z_krewetkami.726ff09a.png",
@@ -51,8 +51,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.44d5b21e.js",
-    "static/js/2.16a8c43c.chunk.js",
-    "static/css/main.11c1d822.chunk.css",
-    "static/js/main.c8ca8b8d.chunk.js"
+    "static/js/2.dad93a5f.chunk.js",
+    "static/css/main.ddbc1c23.chunk.css",
+    "static/js/main.1052f8ff.chunk.js"
   ]
 }
