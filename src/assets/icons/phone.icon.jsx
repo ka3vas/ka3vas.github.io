@@ -10,8 +10,8 @@ function PhoneIcon() {
       viewBox='0 0 363 453.75'
       x='0px'
       y='0px'
-      fill-rule='evenodd'
-      clip-rule='evenodd'
+      fillRule='evenodd'
+      clipRule='evenodd'
     >
       <defs></defs>
       <g>
@@ -21,9 +21,9 @@ function PhoneIcon() {
         x='0'
         y='378'
         fill='#000000'
-        font-size='5px'
-        font-weight='bold'
-        font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif"
+        fontSize='5px'
+        fontWeight='bold'
+        fontFamily="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif"
       >
         Created by Wilshon Athena
       </text>
@@ -31,9 +31,9 @@ function PhoneIcon() {
         x='0'
         y='383'
         fill='#000000'
-        font-size='5px'
-        font-weight='bold'
-        font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif"
+        fontSize='5px'
+        fontWeight='bold'
+        fontFamily="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif"
       >
         from the Noun Project
       </text>

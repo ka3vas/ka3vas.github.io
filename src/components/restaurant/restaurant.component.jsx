@@ -9,7 +9,7 @@ import {
 import './restaurant.styles.scss';
 
 import DishGroup from '../dish-group/dish-group.component';
-import DishGroupRoll from '../dish-group-roll/dish-group-roll.component';
+// import DishGroupRoll from '../dish-group-roll/dish-group-roll.component';
 import CollectionFilter from '../collection-filter/collection-filter.component';
 
 class Restaurant extends React.Component {
@@ -18,19 +18,18 @@ class Restaurant extends React.Component {
 
     setCurrentRestaurant(restaurant);
     setCurrentDishes(restaurant.dishes);
+    console.log('props', this.props);
   }
 
-  componentWillUnmount() {
-    const { setCurrentRestaurant, setCurrentDishes } = this.props;
+  // componentWillUnmount() {
+  //   const { setCurrentRestaurant, setCurrentDishes } = this.props;
 
-    setCurrentRestaurant(null);
-    setCurrentDishes([]);
-  }
+  //   setCurrentRestaurant(null);
+  //   setCurrentDishes([]);
+  // }
 
   filterByCategory = (currentDishes, category) =>
     currentDishes.filter((dish) => dish.category === category);
-
-  testFunction = () => console.log('test');
 
   handleClick = (dishes, price) => {
     const lessThanDishes = dishes.filter((dish) => dish.price < price);
@@ -68,6 +67,11 @@ class Restaurant extends React.Component {
               currentArr={dishes}
               defaultArr={restaurant.dishes}
             />
+            <ul>
+              <li>Set</li>
+              <li>Poke</li>
+              <li>Tempura</li>
+            </ul>
           </div>
           <div className='menu_dishes'>
             {poke.length > 0 ? (

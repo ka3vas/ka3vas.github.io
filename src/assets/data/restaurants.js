@@ -86,7 +86,10 @@ const restaurants = [
     img: kwidzyn,
     dishes: [],
     categoryImage: '',
-    categoryDescription: [],
+    categoryDescription: [
+      { type: 'set', description: '--- OPIS ---' },
+      { type: 'poke', description: '--- OPIS ---' },
+    ],
   },
   {
     id: 4,
@@ -109,7 +112,10 @@ const restaurants = [
     img: brodnica,
     dishes: [],
     categoryImage: '',
-    categoryDescription: [],
+    categoryDescription: [
+      { type: 'set', description: '--- OPIS ---' },
+      { type: 'poke', description: '--- OPIS ---' },
+    ],
   },
   {
     id: 5,
@@ -132,7 +138,10 @@ const restaurants = [
     img: chojnice,
     dishes: [],
     categoryImage: '',
-    categoryDescription: [],
+    categoryDescription: [
+      { type: 'set', description: '--- OPIS ---' },
+      { type: 'poke', description: '--- OPIS ---' },
+    ],
   },
 ];
 

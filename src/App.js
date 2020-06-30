@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route, Switch, Link } from 'react-router-dom';
+import { Route, Switch, Link, Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 
 import Header from './components/header/header.component';
@@ -8,14 +8,15 @@ import RestauranPicker from './components/restaurant-picker/restaurant-picker.co
 import Restaurant from './components/restaurant/restaurant.component';
 import Footer from './components/footer/footer.component';
 
-import Catering from './pages/catering/catering.component';
+import Catering from './pages/catering/catering.page';
+import ContactUs from './pages/contactus/contactus.page';
 
 import restaurants from './assets/data/restaurants';
 // import restaurants from './assets/data/restaurants.json';
 
 import './App.scss';
 
-import video from './assets/video/hero-video.mp4';
+import video from './assets/video/hero-video.MP4';
 
 class App extends Component {
   constructor(props) {
@@ -46,9 +47,13 @@ class App extends Component {
       <div className='App' style={{ backgroundColor: '#f7fbfb' }}>
         {width > 767 ? (
           <>
-            <Header video={video} />
-            <Navigation />
             <div className='blinder'></div>
+            <Navigation />
+
+            <Route
+              path='/'
+              render={(props) => <Header {...props} video={video} />}
+            />
           </>
         ) : (
           <Link to='/'>
@@ -66,7 +71,12 @@ class App extends Component {
               )}
             />
           ))}
-          <Route exact path='/catering' component={Catering} />
+          <Route path='/catering' render={(props) => <Catering {...props} />} />
+          <Route path='/contactus' render={(props) => <ContactUs {...props} />}>
+            {!this.props.currentRestaurant.restaurant ? (
+              <Redirect to='/' />
+            ) : null}
+          </Route>
           <Route
             path='/'
             render={(props) => (

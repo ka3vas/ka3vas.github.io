@@ -27,7 +27,7 @@ body {
   // min-height: calc(100vh - 75px);
   min-height: 45vh;
   // max-height: 600px;
-  z-index: 2;
+  z-index: 1;
 }
 
 .video-bg {
@@ -63,4 +63,5 @@ body {
   height: 25px;
   position: sticky;
   top: 0;
+  z-index: 2;
 }
