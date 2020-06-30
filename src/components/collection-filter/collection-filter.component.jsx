@@ -53,15 +53,15 @@ class CollectionFilter extends Component {
   //   returnFunction(sortedArray);
   // };
 
-  updateActiveFilters = (active, filter) => {
-    if (active) console.log('add', filter);
-    else console.log('remove', filter);
-  };
+  // updateActiveFilters = (active, filter) => {
+  //   if (active) console.log('add', filter);
+  //   else console.log('remove', filter);
+  // };
 
   render() {
     // currentArr,
     const { defaultArr, handleClick } = this.props;
-    console.log('props', this.props);
+
     return (
       <div className='menu-filters--sticky'>
         <ul className='category'>

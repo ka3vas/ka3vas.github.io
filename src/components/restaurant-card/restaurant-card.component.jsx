@@ -6,8 +6,6 @@ import PhoneIcon from '../../assets/icons/phone.icon';
 // import RestaurantIcon from '../../assets/icons/restaurant.icon';
 
 const RestaurantCard = ({ restaurant }) => {
-  console.log(restaurant);
-
   return (
     <div className='restaurant-card__wrapper'>
       <Link to={restaurant.url}>
@@ -28,7 +26,7 @@ const RestaurantCard = ({ restaurant }) => {
           <a
             href={`tel:${restaurant.phone.directional}${restaurant.phone.number}`}
           >
-            <span class='btn--round'>
+            <span className='btn--round'>
               <PhoneIcon />
             </span>
             <span>

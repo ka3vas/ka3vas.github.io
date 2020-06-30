@@ -10,9 +10,6 @@ import defaultImg from '../../assets/images/torun.png';
 import './navigation.styles.scss';
 
 function Navigation(props) {
-  // const { img = null, city = null } = props.currentRestaurant.restaurant;
-  console.log(props.currentRestaurant);
-
   const { restaurant } = props.currentRestaurant;
 
   return (

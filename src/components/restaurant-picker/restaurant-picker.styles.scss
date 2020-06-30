@@ -1,4 +1,12 @@
 .restaurant-picker {
+    &__title {
+        text-align: center;
+        text-transform: uppercase;
+        padding: 0 30px 30px;
+        color: #7DCC21;
+        font-size: 32px;
+    }
+
     &__wrapper {
         height: 100%;
         margin: auto;
@@ -29,6 +37,14 @@
                 @media screen and (max-width: 999px) {
                     padding-bottom: 20px;
                 }
+
+                // &:hover {
+                //     box-shadow: inset 0 1px rgba(34, 25, 25, 0.2), 0 1px rgba(255, 255, 255, 0.6), 0 0 7px rgba(82, 164, 82, 0.5);
+                // }
+
+                // &.active {
+                //     box-shadow: inset 0 1px rgba(34, 25, 25, 0.2), 0 1px rgba(255, 255, 255, 0.6), 0 0 7px rgba(82, 164, 82, 0.5);
+                // }
             }
         }
     }
