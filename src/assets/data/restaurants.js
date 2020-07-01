@@ -8,8 +8,11 @@ import chojnice from '../images/chojnice.png';
 import workingHours from './working-hours/default';
 
 // DISHES
-import torunDishes from './dishes/city/torun/torun';
-import swiecieDishes from './dishes/city/swiecie/swiecie';
+import torunDishes from './dishes/city/torun';
+import swiecieDishes from './dishes/city/swiecie';
+import kwidzynDishes from './dishes/city/kwidzyn';
+import brodnicaDishes from './dishes/city/brodnica';
+import chojniceDishes from './dishes/city/chojnice';
 
 const restaurants = [
   {
@@ -84,7 +87,7 @@ const restaurants = [
     instagram: 'https://www.instagram.com/sushipokego_kwidzyn/',
     facebook: 'https://www.facebook.com/Sushipokego_kwidzyn-110008450535199/',
     img: kwidzyn,
-    dishes: [],
+    dishes: kwidzynDishes,
     categoryImage: '',
     categoryDescription: [
       { type: 'set', description: '--- OPIS ---' },
@@ -110,7 +113,7 @@ const restaurants = [
     instagram: 'https://www.instagram.com/sushipokego_brodnica/',
     facebook: 'https://www.facebook.com/sushipokegobrodnica/',
     img: brodnica,
-    dishes: [],
+    dishes: brodnicaDishes,
     categoryImage: '',
     categoryDescription: [
       { type: 'set', description: '--- OPIS ---' },
@@ -136,7 +139,7 @@ const restaurants = [
     instagram: 'https://www.instagram.com/sushipokego_chojnice/',
     facebook: 'https://www.facebook.com/Sushipokego-Chojnice-109810790707623/',
     img: chojnice,
-    dishes: [],
+    dishes: chojniceDishes,
     categoryImage: '',
     categoryDescription: [
       { type: 'set', description: '--- OPIS ---' },

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route, Switch, Link, Redirect } from 'react-router-dom';
+import { Route, Switch, Link, Redirect, HashRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 
 import Header from './components/header/header.component';
@@ -42,50 +42,58 @@ class App extends Component {
 
   render() {
     const { width } = this.state.app;
-
     return (
-      <div className='App' style={{ backgroundColor: '#f7fbfb' }}>
-        {width > 767 ? (
-          <>
-            <div className='blinder'></div>
-            <Navigation />
-
+      <HashRouter basename='/'>
+        <div className='App' style={{ backgroundColor: '#f7fbfb' }}>
+          {width > 767 ? (
+            <>
+              <div className='blinder'></div>
+              <Navigation />
+            </>
+          ) : (
+            <div>
+              <a href='https://youtu.be/dQw4w9WgXcQ'>
+                Miejsce na header i nawigacje (mobile)
+              </a>
+            </div>
+          )}
+          <Switch>
+            {restaurants.map((restaurant) => (
+              <Route
+                key={restaurant.id}
+                exact
+                path={`/${restaurant.url}`}
+                render={(props) => (
+                  <Restaurant {...props} restaurant={restaurant} />
+                )}
+              />
+            ))}
+            <Route path='/catering' render={(props) => <Catering {...props} />}>
+              {!this.props.currentRestaurant.restaurant ? (
+                <Redirect to='/' />
+              ) : null}
+            </Route>
+            <Route
+              path='/contactus'
+              render={(props) => <ContactUs {...props} />}
+            >
+              {!this.props.currentRestaurant.restaurant ? (
+                <Redirect to='/' />
+              ) : null}
+            </Route>
             <Route
               path='/'
-              render={(props) => <Header {...props} video={video} />}
-            />
-          </>
-        ) : (
-          <Link to='/'>
-            <div>Mobile Header with mobile navigation</div>
-          </Link>
-        )}
-        <Switch>
-          {restaurants.map((restaurant) => (
-            <Route
-              key={restaurant.id}
-              exact
-              path={`/${restaurant.url}`}
               render={(props) => (
-                <Restaurant {...props} restaurant={restaurant} />
+                <>
+                  {width > 767 ? <Header {...props} video={video} /> : null}
+                  <RestauranPicker {...props} restaurants={restaurants} />
+                </>
               )}
             />
-          ))}
-          <Route path='/catering' render={(props) => <Catering {...props} />} />
-          <Route path='/contactus' render={(props) => <ContactUs {...props} />}>
-            {!this.props.currentRestaurant.restaurant ? (
-              <Redirect to='/' />
-            ) : null}
-          </Route>
-          <Route
-            path='/'
-            render={(props) => (
-              <RestauranPicker {...props} restaurants={restaurants} />
-            )}
-          />
-        </Switch>
-        <Footer restaurants={restaurants} />
-      </div>
+          </Switch>
+          <Footer restaurants={restaurants} />
+        </div>
+      </HashRouter>
     );
   }
 }

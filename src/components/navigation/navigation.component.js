@@ -38,7 +38,9 @@ function Navigation(props) {
         <div className='social__wrapper'>
           {restaurant ? (
             <>
-              <div className='social__city'>{restaurant.city}</div>
+              <Link to={restaurant.url} className='social__city'>
+                {restaurant.city}
+              </Link>
               <a
                 href={restaurant.facebook}
                 target='_blank'
