@@ -1,4 +1,5 @@
 import React from 'react';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 // import phoneIcon from '../../assets/icons/smartphone.svg';
 import './card.style.scss';
@@ -9,11 +10,10 @@ function Card({ card }) {
   return (
     <div className='card'>
       <div className='card__image'>
-        <img
-          width='250'
-          height='250'
+        <LazyLoadImage
+          height={250}
           src={img}
-          alt='urocza japonka podająca sushi'
+          alt={'urocza japonka podająca sushi'}
         />
       </div>
       <div className='card__title'>{name}</div>

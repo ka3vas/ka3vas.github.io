@@ -1,4 +1,6 @@
 import React from 'react';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 import './dish-group.styles.scss';
 
@@ -15,7 +17,16 @@ function DishGroup(props) {
             return (
               <div className='dish-card' key={title}>
                 <div className='dish-card__image'>
-                  {dish.imgSrc ? <img src={dish.imgSrc} alt='sushi' /> : null}
+                  {dish.imgSrc ? (
+                    <LazyLoadImage
+                      src={dish.imgSrc}
+                      alt={'sushi'}
+                      height={250}
+                      width={250}
+                      threshold={100}
+                      effect='blur'
+                    />
+                  ) : null}
                 </div>
                 <h3 className='dish-card__title'>{title}</h3>
                 <div className='dish-card__price'>

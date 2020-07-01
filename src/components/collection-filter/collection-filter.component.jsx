@@ -63,7 +63,7 @@ class CollectionFilter extends Component {
     const { defaultArr, handleClick } = this.props;
 
     return (
-      <div className='menu-filters--sticky'>
+      <div className='menu-filters'>
         <ul className='category'>
           <li>
             <div>Alfabetycznie:</div>

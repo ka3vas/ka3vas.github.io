@@ -2,8 +2,6 @@ import React from 'react';
 import { connect } from 'react-redux';
 
 const Catering = (props) => {
-  console.log('catering', props);
-
   const { restaurant } = props.currentRestaurant;
 
   return (
@@ -16,6 +14,14 @@ const Catering = (props) => {
         pomagamy dostosować propozycję do oczekiwań.
       </p>
       <p>Serdecznie zapraszamy do kontaktu telefonicznego.</p>
+      {restaurant ? (
+        <>
+          <div>{restaurant.city}</div>
+          <div>{`+${
+            restaurant.phone.directional
+          } ${restaurant.phone.number.replace(/(.{3})/g, '$1 ')}`}</div>
+        </>
+      ) : null}
     </div>
   );
 };

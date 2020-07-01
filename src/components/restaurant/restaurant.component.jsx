@@ -18,7 +18,6 @@ class Restaurant extends React.Component {
 
     setCurrentRestaurant(restaurant);
     setCurrentDishes(restaurant.dishes);
-    console.log('props', this.props);
   }
 
   // componentWillUnmount() {
