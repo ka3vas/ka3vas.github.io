@@ -1,0 +1,60 @@
+const sauce = [
+  {
+    quantity: 1,
+    title: 'spicy majo',
+    category: 'sauce',
+    price: 300,
+    featured: false,
+    avaiableFor: ['torun', 'swiecie'],
+  },
+  {
+    quantity: 1,
+    title: 'kabajaki',
+    category: 'sauce',
+    price: 300,
+    featured: false,
+    avaiableFor: ['torun', 'swiecie'],
+  },
+  {
+    quantity: 1,
+    title: 'sriracha',
+    category: 'sauce',
+    price: 300,
+    featured: false,
+    avaiableFor: ['torun', 'swiecie'],
+  },
+  {
+    quantity: 1,
+    title: 'sweet chilli',
+    category: 'sauce',
+    price: 300,
+    featured: false,
+    avaiableFor: ['torun', 'swiecie'],
+  },
+  {
+    quantity: 1,
+    title: 'sos sojowy',
+    category: 'sauce',
+    price: 300,
+    featured: false,
+    avaiableFor: ['torun', 'swiecie'],
+  },
+  {
+    quantity: 1,
+    title: 'sos sojowy bezglutenowy',
+    category: 'sauce',
+    price: 300,
+    featured: false,
+    avaiableFor: ['torun', 'swiecie'],
+  },
+  {
+    quantity: 1,
+    title: 'sos kimchi',
+    category: 'sauce',
+    price: 300,
+    featured: false,
+    avaiableFor: ['torun', 'swiecie'],
+  },
+];
+
+export default sauce;
