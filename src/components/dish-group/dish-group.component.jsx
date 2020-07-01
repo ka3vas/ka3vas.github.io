@@ -5,13 +5,16 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 import './dish-group.styles.scss';
 
 function DishGroup(props) {
+  const { menu } = props;
+  const { dishes } = menu;
+
   return (
     <div className='dish-group__container'>
       <div className='dish-group'>
-        <h2 className='dish-group__title'>{props.dishes[0].category}</h2>
-        {<p>{props.description ? props.description[0].description : null}</p>}
+        <h2 className='dish-group__title'>{menu.title}</h2>
+        {<p>{menu.description}</p>}
         <div className='dish-group__wrapper'>
-          {props.dishes.map((dish) => {
+          {dishes.map((dish) => {
             const { title, price, quantity, description } = dish;
 
             return (

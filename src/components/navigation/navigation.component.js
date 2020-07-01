@@ -20,7 +20,12 @@ function Navigation(props) {
           <Link to='/'>
             {restaurant ? (
               <>
-                <img src={restaurant.img} alt='logo' width='150' height='150' />
+                <img
+                  src={restaurant.logo.img}
+                  alt='logo'
+                  width='150'
+                  height='150'
+                />
               </>
             ) : (
               <>

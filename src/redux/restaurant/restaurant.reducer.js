@@ -1,6 +1,6 @@
 const INITIAL_STATE = {
   restaurant: null,
-  dishes: [],
+  currentDishes: [],
 };
 
 const restaurantReducer = (state = INITIAL_STATE, action) => {
@@ -14,7 +14,7 @@ const restaurantReducer = (state = INITIAL_STATE, action) => {
     case 'SET_CURRENT_DISHES':
       return {
         ...state,
-        dishes: action.payload,
+        currentDishes: action.payload,
       };
 
     default:

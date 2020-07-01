@@ -6,8 +6,8 @@ function DishGroupRoll(props) {
   return (
     <div className='dish-group__container'>
       <div className='dish-group'>
-        <h2 className='dish-group__title'>{props.dishes[0].category}</h2>
-        {<p>{props.description ? props.description[0].description : null}</p>}
+        <h2 className='dish-group__title'>CATEGORY TITLE</h2>
+        {<p>CATEGORY DESCRIPTION</p>}
         <div className='dish-group-roll__wrapper'>
           {props.dishes.map((dish) => {
             const { title, price, quantity, description } = dish;
