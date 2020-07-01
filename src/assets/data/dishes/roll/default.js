@@ -12,225 +12,218 @@ import rollRainbow from '../../../images/dishes/roll/rainbow_roll.png';
 import rollCrab from '../../../images/dishes/roll/krab_soft_shell_roll.png';
 import rollSakeJaki from '../../../images/dishes/roll/sake_jaki_roll.png';
 
-const defaultRoll = [
-  {
-    imgSrc: rollEbi,
-    category: 'roll',
-    title: 'ebi sake roll',
-    price: {
-      five: 2600,
-      eight: 3500,
+const roll = {
+  category: 'roll',
+  title: 'roll',
+  description: '--- OPIS ---',
+  img: '',
+  dishes: [
+    {
+      imgSrc: rollEbi,
+      title: 'ebi sake roll',
+      price: {
+        five: 2600,
+        eight: 3500,
+      },
+      quantity: {
+        five: 5,
+        eight: 8,
+      },
+      description:
+        'Rolka z krewetką w tempurze w środku, otulona łososiem ugory.',
+      featured: false,
+      avaiableFor: ['torun', 'swiecie'],
     },
-    quantity: {
-      five: 5,
-      eight: 8,
+    {
+      imgSrc: rollTataki,
+      title: 'tataki tuna mexico roll',
+      price: {
+        five: 2700,
+        eight: 3600,
+      },
+      quantity: {
+        five: 5,
+        eight: 8,
+      },
+      description:
+        'Rolka z warzywami w tempurze i serkiem kremowym w środku, z tuńczykiem i ostrym sosem.',
+      featured: false,
+      avaiableFor: ['torun', 'swiecie'],
     },
-    description:
-      'Rolka z krewetką w tempurze w środku, otulona łososiem ugory.',
-    featured: false,
-    avaiableFor: ['torun', 'swiecie'],
-  },
-  {
-    imgSrc: rollTataki,
-    category: 'roll',
-    title: 'tataki tuna mexico roll',
-    price: {
-      five: 2700,
-      eight: 3600,
+    {
+      imgSrc: rollKalifornia,
+      title: 'kalifornia z krewetkami',
+      price: {
+        five: 2600,
+        eight: 3400,
+      },
+      quantity: {
+        five: 5,
+        eight: 8,
+      },
+      description:
+        'Rolka z chrupiącą krewetką panko i warzywami w środku, kawiorem i sosem spicy majo.',
+      featured: false,
+      avaiableFor: ['torun', 'swiecie'],
     },
-    quantity: {
-      five: 5,
-      eight: 8,
+    {
+      imgSrc: rollFujiyama,
+      title: 'fujiyama roll',
+      price: {
+        five: 2800,
+        eight: 3700,
+      },
+      quantity: {
+        five: 5,
+        eight: 8,
+      },
+      description:
+        'Rolka na ciepło, w środku z warzywami i serkiem kremowym, tatarem z łososia i tuńczykiem.',
+      featured: false,
+      avaiableFor: ['torun', 'swiecie'],
     },
-    description:
-      'Rolka z warzywami w tempurze i serkiem kremowym w środku, z tuńczykiem i ostrym sosem.',
-    featured: false,
-    avaiableFor: ['torun', 'swiecie'],
-  },
-  {
-    imgSrc: rollKalifornia,
-    category: 'roll',
-    title: 'kalifornia z krewetkami',
-    price: {
-      five: 2600,
-      eight: 3400,
+    {
+      imgSrc: rollMandarin,
+      title: 'mandarin roll',
+      price: {
+        five: 2900,
+        eight: 3900,
+      },
+      quantity: {
+        five: 5,
+        eight: 8,
+      },
+      description:
+        'Rolka z grillowanym węgorzem i glonami wakame w środku, otulona łososiem i kawiorem.',
+      featured: false,
+      avaiableFor: ['torun', 'swiecie'],
     },
-    quantity: {
-      five: 5,
-      eight: 8,
+    {
+      imgSrc: rollGreenDragon,
+      title: 'green dragon roll',
+      price: {
+        five: 2900,
+        eight: 3900,
+      },
+      quantity: {
+        five: 5,
+        eight: 8,
+      },
+      description:
+        'Rolka z grillowanym węgorzem i warzywami w środku oraz awokado na zewnątrz.',
+      featured: false,
+      avaiableFor: ['torun', 'swiecie'],
     },
-    description:
-      'Rolka z chrupiącą krewetką panko i warzywami w środku, kawiorem i sosem spicy majo.',
-    featured: false,
-    avaiableFor: ['torun', 'swiecie'],
-  },
-  {
-    imgSrc: rollFujiyama,
-    category: 'roll',
-    title: 'fujiyama roll',
-    price: {
-      five: 2800,
-      eight: 3700,
+    {
+      imgSrc: rollBlackDragon,
+      title: 'black dragon roll',
+      price: {
+        five: 2900,
+        eight: 3900,
+      },
+      quantity: {
+        five: 5,
+        eight: 8,
+      },
+      description:
+        'Rolka z krewetką w tempurze i tatarem surimi w środku, węgorz z awokado na zewnątrz.',
+      featured: false,
+      avaiableFor: ['torun', 'swiecie'],
     },
-    quantity: {
-      five: 5,
-      eight: 8,
+    {
+      imgSrc: rollMigdal,
+      title: 'sake roll z migdałami',
+      price: {
+        five: 2600,
+        eight: 3400,
+      },
+      quantity: {
+        five: 5,
+        eight: 8,
+      },
+      description: 'Rolka z łososiem i serkiem kremowym posypana migdałami.',
+      featured: false,
+      avaiableFor: ['torun', 'swiecie'],
     },
-    description:
-      'Rolka na ciepło, w środku z warzywami i serkiem kremowym, tatarem z łososia i tuńczykiem.',
-    featured: false,
-    avaiableFor: ['torun', 'swiecie'],
-  },
-  {
-    imgSrc: rollMandarin,
-    category: 'roll',
-    title: 'mandarin roll',
-    price: {
-      five: 2900,
-      eight: 3900,
+    {
+      imgSrc: rollInari,
+      title: 'inari salmon roll',
+      price: {
+        five: 2900,
+        eight: 3900,
+      },
+      quantity: {
+        five: 5,
+        eight: 8,
+      },
+      description:
+        'Rolka z łososia w tempurze, glonami wakame i warzywami w środku, otulona łososiem i inari.',
+      featured: false,
+      avaiableFor: ['torun', 'swiecie'],
     },
-    quantity: {
-      five: 5,
-      eight: 8,
+    {
+      imgSrc: rollFreshSalmon,
+      title: 'fresh salmon roll',
+      price: {
+        five: 2900,
+        eight: 3900,
+      },
+      quantity: {
+        five: 5,
+        eight: 8,
+      },
+      description:
+        'Rolka z łososiem i warzywami w środku, otulona awokado i tatarem z łososia.',
+      featured: false,
+      avaiableFor: ['torun', 'swiecie'],
     },
-    description:
-      'Rolka z grillowanym węgorzem i glonami wakame w środku, otulona łososiem i kawiorem.',
-    featured: false,
-    avaiableFor: ['torun', 'swiecie'],
-  },
-  {
-    imgSrc: rollGreenDragon,
-    category: 'roll',
-    title: 'green dragon roll',
-    price: {
-      five: 2900,
-      eight: 3900,
+    {
+      imgSrc: rollRainbow,
+      title: 'rainbow roll',
+      price: {
+        five: 2900,
+        eight: 3800,
+      },
+      quantity: {
+        five: 5,
+        eight: 8,
+      },
+      description:
+        'Rolka z pikantnym surimi, kawiorem masago i ogórkiem w środku, otulona łososiem, tuńczykiem, awokado i krewetką.',
+      featured: false,
+      avaiableFor: ['torun', 'swiecie'],
     },
-    quantity: {
-      five: 5,
-      eight: 8,
+    {
+      imgSrc: rollSakeJaki,
+      title: 'sake jaki roll',
+      price: {
+        five: 2600,
+        eight: 3500,
+      },
+      quantity: {
+        five: 5,
+        eight: 8,
+      },
+      description: 'Rolka z opalonym łososiem, serkiem kremowym i warzywami',
+      featured: false,
+      avaiableFor: ['torun', 'swiecie'],
     },
-    description:
-      'Rolka z grillowanym węgorzem i warzywami w środku oraz awokado na zewnątrz.',
-    featured: false,
-    avaiableFor: ['torun', 'swiecie'],
-  },
-  {
-    imgSrc: rollBlackDragon,
-    category: 'roll',
-    title: 'black dragon roll',
-    price: {
-      five: 2900,
-      eight: 3900,
+    {
+      imgSrc: rollCrab,
+      title: 'krab soft shell roll',
+      price: {
+        five: 2900,
+        eight: 3900,
+      },
+      quantity: {
+        five: 5,
+        eight: 8,
+      },
+      description: 'Rolka na ciepło, w środku z warzywami i krabem',
+      featured: false,
+      avaiableFor: ['torun', 'swiecie'],
     },
-    quantity: {
-      five: 5,
-      eight: 8,
-    },
-    description:
-      'Rolka z krewetką w tempurze i tatarem surimi w środku, węgorz z awokado na zewnątrz.',
-    featured: false,
-    avaiableFor: ['torun', 'swiecie'],
-  },
-  {
-    imgSrc: rollMigdal,
-    category: 'roll',
-    title: 'sake roll z migdałami',
-    price: {
-      five: 2600,
-      eight: 3400,
-    },
-    quantity: {
-      five: 5,
-      eight: 8,
-    },
-    description: 'Rolka z łososiem i serkiem kremowym posypana migdałami.',
-    featured: false,
-    avaiableFor: ['torun', 'swiecie'],
-  },
-  {
-    imgSrc: rollInari,
-    category: 'roll',
-    title: 'inari salmon roll',
-    price: {
-      five: 2900,
-      eight: 3900,
-    },
-    quantity: {
-      five: 5,
-      eight: 8,
-    },
-    description:
-      'Rolka z łososia w tempurze, glonami wakame i warzywami w środku, otulona łososiem i inari.',
-    featured: false,
-    avaiableFor: ['torun', 'swiecie'],
-  },
-  {
-    imgSrc: rollFreshSalmon,
-    category: 'roll',
-    title: 'fresh salmon roll',
-    price: {
-      five: 2900,
-      eight: 3900,
-    },
-    quantity: {
-      five: 5,
-      eight: 8,
-    },
-    description:
-      'Rolka z łososiem i warzywami w środku, otulona awokado i tatarem z łososia.',
-    featured: false,
-    avaiableFor: ['torun', 'swiecie'],
-  },
-  {
-    imgSrc: rollRainbow,
-    category: 'roll',
-    title: 'rainbow roll',
-    price: {
-      five: 2900,
-      eight: 3800,
-    },
-    quantity: {
-      five: 5,
-      eight: 8,
-    },
-    description:
-      'Rolka z pikantnym surimi, kawiorem masago i ogórkiem w środku, otulona łososiem, tuńczykiem, awokado i krewetką.',
-    featured: false,
-    avaiableFor: ['torun', 'swiecie'],
-  },
-  {
-    imgSrc: rollSakeJaki,
-    category: 'roll',
-    title: 'sake jaki roll',
-    price: {
-      five: 2600,
-      eight: 3500,
-    },
-    quantity: {
-      five: 5,
-      eight: 8,
-    },
-    description: 'Rolka z opalonym łososiem, serkiem kremowym i warzywami',
-    featured: false,
-    avaiableFor: ['torun', 'swiecie'],
-  },
-  {
-    imgSrc: rollCrab,
-    category: 'roll',
-    title: 'krab soft shell roll',
-    price: {
-      five: 2900,
-      eight: 3900,
-    },
-    quantity: {
-      five: 5,
-      eight: 8,
-    },
-    description: 'Rolka na ciepło, w środku z warzywami i krabem',
-    featured: false,
-    avaiableFor: ['torun', 'swiecie'],
-  },
-];
+  ],
+};
 
-export default defaultRoll;
+export default roll;

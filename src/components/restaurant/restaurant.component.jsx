@@ -10,6 +10,7 @@ import './restaurant.styles.scss';
 
 import DishGroup from '../dish-group/dish-group.component';
 // import DishGroupRoll from '../dish-group-roll/dish-group-roll.component';
+// import DishGroupSimple from '../dish-group-simple/dish-group-simple.component';
 import CollectionFilter from '../collection-filter/collection-filter.component';
 
 class Restaurant extends React.Component {
@@ -17,15 +18,10 @@ class Restaurant extends React.Component {
     const { setCurrentRestaurant, restaurant, setCurrentDishes } = this.props;
 
     setCurrentRestaurant(restaurant);
-    setCurrentDishes(restaurant.dishes);
+    setCurrentDishes(restaurant.items);
   }
 
-  // componentWillUnmount() {
-  //   const { setCurrentRestaurant, setCurrentDishes } = this.props;
-
-  //   setCurrentRestaurant(null);
-  //   setCurrentDishes([]);
-  // }
+  // return
 
   filterByCategory = (currentDishes, category) =>
     currentDishes.filter((dish) => dish.category === category);
@@ -42,19 +38,14 @@ class Restaurant extends React.Component {
   render() {
     const { filterByCategory } = this;
     const { restaurant } = this.props;
-    const { dishes } = this.props.currentRestaurant;
-
-    const currentDishes = dishes;
-    // const currentDishes = dishes.sort((a, b) => a.price - b.price);
-    // const currentDishes = dishes.filter((dish) => dish.price < 10000);
-    // const currentDishes = dishes.filter((dish) => dish.category === 'poke');
+    const { currentDishes } = this.props.currentRestaurant;
 
     const set = filterByCategory(currentDishes, 'set');
     const poke = filterByCategory(currentDishes, 'poke');
-    // const roll = filterByCategory(currentDishes, 'roll');
-    const tempura = filterByCategory(currentDishes, 'tempura');
-    const snap = filterByCategory(currentDishes, 'snap');
-    const sauce = filterByCategory(currentDishes, 'sauce');
+    // // const roll = filterByCategory(dishes, 'roll');
+    // const tempura = filterByCategory(dishes, 'tempura');
+    // const snap = filterByCategory(dishes, 'snap');
+    // const sauce = filterByCategory(dishes, 'sauce');
 
     return (
       <div className='restaurant-display'>
@@ -65,7 +56,7 @@ class Restaurant extends React.Component {
           <div className='menu_filters'>
             <CollectionFilter
               handleClick={this.getValue}
-              currentArr={dishes}
+              currentArr={currentDishes}
               defaultArr={restaurant.dishes}
             />
             <ul>
@@ -75,26 +66,12 @@ class Restaurant extends React.Component {
             </ul>
           </div>
           <div className='menu_dishes'>
-            {poke.length > 0 ? (
-              <DishGroup
-                dishes={poke}
-                description={restaurant.categoryDescription.filter(
-                  (category) => category.type === 'set'
-                )}
-              />
-            ) : null}
-            {set.length > 0 ? (
-              <DishGroup
-                dishes={set}
-                description={restaurant.categoryDescription.filter(
-                  (category) => category.type === 'set'
-                )}
-              />
-            ) : null}
+            {poke.length > 0 ? <DishGroup menu={poke[0]} /> : null}
+            {set.length > 0 ? <DishGroup menu={set[0]} /> : null}
             {/* {roll.length > 0 ? <DishGroupRoll dishes={roll} /> : null} */}
-            {tempura.length > 0 ? <DishGroup dishes={tempura} /> : null}
-            {snap.length > 0 ? <DishGroup dishes={snap} /> : null}
-            {sauce.length > 0 ? <DishGroup dishes={sauce} /> : null}
+            {/* {tempura.length > 0 ? <DishGroupSimple dishes={tempura} /> : null}
+            {snap.length > 0 ? <DishGroupSimple dishes={snap} /> : null}
+            {sauce.length > 0 ? <DishGroupSimple dishes={sauce} /> : null} */}
           </div>
         </div>
       </div>
@@ -110,7 +87,8 @@ const mapDispatchToProps = (dispatch) => ({
   setCurrentRestaurant: (restaurant) =>
     dispatch(setCurrentRestaurant(restaurant)),
 
-  setCurrentDishes: (allDishes) => dispatch(setCurrentDishes(allDishes)),
+  setCurrentDishes: (currentDishes) =>
+    dispatch(setCurrentDishes(currentDishes)),
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Restaurant);

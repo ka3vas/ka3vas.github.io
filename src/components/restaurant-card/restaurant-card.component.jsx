@@ -12,8 +12,8 @@ const RestaurantCard = ({ restaurant }) => {
         <img
           width='150'
           height='150'
-          src={restaurant.img}
-          alt='urocza japonka podająca sushi'
+          src={restaurant.logo.img}
+          alt={restaurant.logo.alt}
         />
       </Link>
       <div className='restaurant-card__info'>
