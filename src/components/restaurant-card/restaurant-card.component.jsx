@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import './restaurant-card.styles.scss';
 import PhoneIcon from '../../assets/icons/phone.icon';
-// import RestaurantIcon from '../../assets/icons/restaurant.icon';
+
+import './restaurant-card.styles.scss';
 
 const RestaurantCard = ({ restaurant }) => {
   return (

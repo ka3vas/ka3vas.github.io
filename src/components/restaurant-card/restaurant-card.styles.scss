@@ -4,7 +4,7 @@
         align-items: center;
         // width: 300px;
         margin: 0 auto;
-        background: white;
+        background: var(--secondary-bg-color);
         border-radius: 5px;
         padding: 30px 10px
     }
@@ -26,7 +26,7 @@
                 font-size: 24px;
                 letter-spacing: 1px;
                 font-weight: bold;
-                color: #7DCC21;
+                color: var(--secondary-color);
                 line-height: 1;
             }
 
@@ -39,8 +39,8 @@
                     justify-content: center;
                     align-items: center;
                     text-decoration: none;
-                    color: white;
-                    background: #00d1e2;
+                    color: var(--main-color);
+                    background: var(--secondary-color);
                     padding: 10px;
                     border-radius: 15px;
 
@@ -52,12 +52,13 @@
                         display: flex;
                         justify-content: center;
                         align-items: center;
-                        padding-right: 5px;
+                        padding-right: 10px;
+                        padding-top: 5px;
                     }
 
                     svg {
                         path {
-                            fill: white
+                            fill: var(--main-color)
                         }
                     }
                 }
@@ -66,7 +67,7 @@
             &__address {
                 font-size: 14px;
                 line-height: 1;
-                color: grey;
+                color: var(--main-color);
                 padding: 0 0 10px;
             }
         }

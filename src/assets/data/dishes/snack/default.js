@@ -1,8 +1,13 @@
+import imgSrc from '../../../images/dishes/snack/salatka_z_glonow.png';
+
 const snack = {
   category: 'snack',
   title: 'snack',
   description: '--- OPIS ---',
-  img: '',
+  img: {
+    src: imgSrc,
+    alt: 'alt',
+  },
   dishes: [
     {
       title: 'sałatka z glonów',

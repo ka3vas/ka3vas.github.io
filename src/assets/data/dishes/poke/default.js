@@ -10,7 +10,10 @@ const poke = {
   category: 'poke',
   title: 'poke',
   description: '--- OPIS ---',
-  img: '',
+  img: {
+    src: '',
+    alt: 'alt',
+  },
   dishes: [
     {
       imgSrc: pokeTunczyk,

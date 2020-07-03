@@ -44,7 +44,7 @@ class App extends Component {
     const { width } = this.state.app;
     return (
       <HashRouter basename='/'>
-        <div className='App' style={{ backgroundColor: '#f7fbfb' }}>
+        <div className='App'>
           {width > 767 ? (
             <>
               <div className='blinder'></div>

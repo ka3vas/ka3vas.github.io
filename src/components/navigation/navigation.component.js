@@ -23,13 +23,13 @@ function Navigation(props) {
                 <img
                   src={restaurant.logo.img}
                   alt='logo'
-                  width='150'
-                  height='150'
+                  width='125'
+                  height='125'
                 />
               </>
             ) : (
               <>
-                <img src={defaultImg} alt='logo' width='150' height='150' />
+                <img src={defaultImg} alt='logo' width='125' height='125' />
               </>
             )}
           </Link>

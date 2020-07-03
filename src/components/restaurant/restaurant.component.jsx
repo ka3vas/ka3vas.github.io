@@ -10,7 +10,7 @@ import './restaurant.styles.scss';
 
 import DishGroup from '../dish-group/dish-group.component';
 // import DishGroupRoll from '../dish-group-roll/dish-group-roll.component';
-// import DishGroupSimple from '../dish-group-simple/dish-group-simple.component';
+import DishGroupSimple from '../dish-group-simple/dish-group-simple.component';
 import CollectionFilter from '../collection-filter/collection-filter.component';
 
 class Restaurant extends React.Component {
@@ -42,10 +42,10 @@ class Restaurant extends React.Component {
 
     const set = filterByCategory(currentDishes, 'set');
     const poke = filterByCategory(currentDishes, 'poke');
-    // // const roll = filterByCategory(dishes, 'roll');
-    // const tempura = filterByCategory(dishes, 'tempura');
-    // const snap = filterByCategory(dishes, 'snap');
-    // const sauce = filterByCategory(dishes, 'sauce');
+    // const roll = filterByCategory(dishes, 'roll');
+    const tempura = filterByCategory(currentDishes, 'tempura');
+    const snack = filterByCategory(currentDishes, 'snack');
+    const sauce = filterByCategory(currentDishes, 'sauce');
 
     return (
       <div className='restaurant-display'>
@@ -69,9 +69,9 @@ class Restaurant extends React.Component {
             {poke.length > 0 ? <DishGroup menu={poke[0]} /> : null}
             {set.length > 0 ? <DishGroup menu={set[0]} /> : null}
             {/* {roll.length > 0 ? <DishGroupRoll dishes={roll} /> : null} */}
-            {/* {tempura.length > 0 ? <DishGroupSimple dishes={tempura} /> : null}
-            {snap.length > 0 ? <DishGroupSimple dishes={snap} /> : null}
-            {sauce.length > 0 ? <DishGroupSimple dishes={sauce} /> : null} */}
+            {tempura.length > 0 ? <DishGroupSimple menu={tempura[0]} /> : null}
+            {snack.length > 0 ? <DishGroupSimple menu={snack[0]} /> : null}
+            {sauce.length > 0 ? <DishGroupSimple menu={sauce[0]} /> : null}
           </div>
         </div>
       </div>
