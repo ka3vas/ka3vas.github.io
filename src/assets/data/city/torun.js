@@ -6,11 +6,11 @@ import set from '../dishes/set/default';
 import poke from '../dishes/poke/default';
 import roll from '../dishes/roll/default';
 import tempura from '../dishes/tempura/default';
-import snap from '../dishes/snap/default';
+import snack from '../dishes/snack/default';
 import classic from '../dishes/classic/default';
 import sauce from '../dishes/sauce/default';
 
-const items = [set, poke, roll, tempura, snap, classic, sauce];
+const items = [set, poke, roll, tempura, snack, classic, sauce];
 
 const torun = {
   id: 1,

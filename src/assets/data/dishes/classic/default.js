@@ -2,7 +2,10 @@ const classic = {
   category: 'classic',
   title: 'classic sushi',
   description: '--- OPIS ---',
-  img: '',
+  img: {
+    src: '',
+    alt: 'alt',
+  },
   dishes: [
     {
       title: 'niguri/gunkany/inari',

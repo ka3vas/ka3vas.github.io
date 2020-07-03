@@ -3,13 +3,13 @@
 .navigation {
   position: sticky;
   top: 20px;
-  background: $mainColor;
+  background: var(--main-color);
   z-index: 2;
 
   nav {
     max-width: $maxWidth;
     margin: 0 auto;
-    height: 100px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -31,11 +31,16 @@
     a {
       text-decoration: none;
       text-transform: uppercase;
-      color: white;
+      color: var(--secondary-bg-color);
       padding-right: 20px;
       font-size: 24px;
-      font-weight: lighter;
       letter-spacing: 3px;
+      font-weight: 100;
+      transition: 0.25s ease-in-out;
+
+      &:hover {
+        color: var(--secondary-color);
+      }
     }
   }
 }
@@ -46,6 +51,16 @@
     display: flex;
     align-items: center;
 
+    a {
+      &:hover {
+        svg {
+          path {
+            fill: var(--secondary-color);
+          }
+        }
+      }
+    }
+
     svg {
       grid-row: 1;
       width: 35px;
@@ -53,6 +68,7 @@
 
       path {
         fill: rgba(255, 255, 255, 1);
+        transition: 0.25s ease-in-out;
       }
     }
   }

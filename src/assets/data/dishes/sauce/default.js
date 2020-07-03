@@ -2,7 +2,7 @@ const sauce = {
   category: 'sauce',
   title: 'sos',
   description: '--- OPIS ---',
-  img: '',
+  img: null,
   dishes: [
     {
       quantity: 1,

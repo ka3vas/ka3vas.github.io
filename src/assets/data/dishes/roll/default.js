@@ -16,7 +16,10 @@ const roll = {
   category: 'roll',
   title: 'roll',
   description: '--- OPIS ---',
-  img: '',
+  img: {
+    src: '',
+    alt: 'alt',
+  },
   dishes: [
     {
       imgSrc: rollEbi,

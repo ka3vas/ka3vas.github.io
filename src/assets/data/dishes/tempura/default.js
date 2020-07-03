@@ -1,10 +1,13 @@
-import tempuraKrewetki from '../../../images/dishes/tempura/krewetki_w_tempurze.png';
+import imgSrc from '../../../images/dishes/tempura/krewetki_w_tempurze.png';
 
 const tempura = {
   category: 'tempura',
   title: 'tempura',
   description: '--- OPIS ---',
-  img: tempuraKrewetki,
+  img: {
+    src: imgSrc,
+    alt: 'alt',
+  },
   dishes: [
     {
       title: 'krewetki w tempurze',

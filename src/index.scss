@@ -1,8 +1,16 @@
 @import './styles/variables.scss';
 
+:root {
+  --main-bg-color: whitesmoke;
+  --secondary-bg-color: white;
+  --main-color: #1B1D1A;
+  --secondary-font-color: #454839;
+  --secondary-color: #7DCC21;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen',
+  font-family: 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;

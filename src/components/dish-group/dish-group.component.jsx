@@ -24,8 +24,8 @@ function DishGroup(props) {
                     <LazyLoadImage
                       src={dish.imgSrc}
                       alt={'sushi'}
-                      height={250}
-                      width={250}
+                      height={200}
+                      width={200}
                       threshold={100}
                       effect='blur'
                     />

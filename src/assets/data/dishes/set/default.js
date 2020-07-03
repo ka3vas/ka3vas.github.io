@@ -14,7 +14,10 @@ const set = {
   category: 'set',
   title: 'set',
   description: '--- OPIS ---',
-  img: '',
+  img: {
+    src: '',
+    alt: 'alt',
+  },
   dishes: [
     {
       imgSrc: imgSrc,
