@@ -55,8 +55,8 @@ class CollectionFilter extends Component {
 
   render() {
     // currentArr,
-    const { defaultArr, handleClick } = this.props;
-
+    const { defaultArr, currentArr, handleClick } = this.props;
+    console.log('defaultArr', defaultArr);
     return (
       <div className='menu-filters'>
         <ul className='category'>
@@ -64,12 +64,12 @@ class CollectionFilter extends Component {
             <div>Alfabetycznie:</div>
             <ul className='subcategory'>
               <li>
-                <button onClick={() => this.filterAZ(defaultArr, handleClick)}>
+                <button onClick={() => this.filterAZ(currentArr, handleClick)}>
                   A-Z
                 </button>
               </li>
               <li>
-                <button onClick={() => this.filterZA(defaultArr, handleClick)}>
+                <button onClick={() => this.filterZA(currentArr, handleClick)}>
                   Z-A
                 </button>
               </li>
@@ -80,7 +80,7 @@ class CollectionFilter extends Component {
             <ul className='subcategory'>
               <li>
                 <button
-                  onClick={() => this.filterByPriceUp(defaultArr, handleClick)}
+                  onClick={() => this.filterByPriceUp(currentArr, handleClick)}
                 >
                   Rosnąco
                 </button>
@@ -88,7 +88,7 @@ class CollectionFilter extends Component {
               <li>
                 <button
                   onClick={() =>
-                    this.filterByPriceDown(defaultArr, handleClick)
+                    this.filterByPriceDown(currentArr, handleClick)
                   }
                 >
                   Malejąco

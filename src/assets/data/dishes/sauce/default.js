@@ -41,7 +41,7 @@ const sauce = {
     },
     {
       quantity: 1,
-      title: 'sos sojowy bezglutenowy',
+      title: 'sos sojowy (bezglutenowy)',
       price: 300,
       featured: false,
       avaiableFor: ['torun', 'swiecie'],

@@ -3,6 +3,7 @@ import { Route, Switch, Link, Redirect, HashRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 
 import Header from './components/header/header.component';
+import MobileNavigation from './components/mobile-navigation/mobile-navigation.component';
 import Navigation from './components/navigation/navigation.component';
 import RestauranPicker from './components/restaurant-picker/restaurant-picker.component';
 import Restaurant from './components/restaurant/restaurant.component';
@@ -51,11 +52,7 @@ class App extends Component {
               <Navigation />
             </>
           ) : (
-            <div>
-              <a href='https://youtu.be/dQw4w9WgXcQ'>
-                Miejsce na header i nawigacje (mobile)
-              </a>
-            </div>
+            <MobileNavigation />
           )}
           <Switch>
             {restaurants.map((restaurant) => (

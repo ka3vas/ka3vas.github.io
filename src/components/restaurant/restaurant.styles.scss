@@ -4,6 +4,8 @@
     max-width: $maxWidth;
     margin: 0 auto;
     padding: 50px 10px;
+    width: 100%;
+    box-sizing: border-box;
 
     .go-back {
         text-align: right;

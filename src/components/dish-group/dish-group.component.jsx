@@ -5,11 +5,13 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 import './dish-group.styles.scss';
 
 function DishGroup(props) {
+  console.log('props', props);
   const { menu } = props;
-  const { dishes } = menu;
+
+  const { dishes, category } = menu;
 
   return (
-    <div className='dish-group__container'>
+    <div id={`dish-group__${category}`} className='dish-group__container'>
       <div className='dish-group'>
         <h2 className='dish-group__title'>{menu.title}</h2>
         {<p>{menu.description}</p>}

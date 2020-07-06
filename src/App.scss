@@ -66,3 +66,13 @@ body {
   top: 0;
   z-index: 2;
 }
+
+.green {
+  fill: var(--secondary-color) !important;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 0 50px;
+}
