@@ -2,7 +2,7 @@ import imgSrc from '../../../images/dishes/snack/salatka_z_glonow.png';
 
 const snack = {
   category: 'snack',
-  title: 'snack',
+  title: 'przekąska',
   description: '--- OPIS ---',
   img: {
     src: imgSrc,

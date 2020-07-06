@@ -2,11 +2,15 @@
     &__wrapper {
         display: grid;
         // this could change on wider screens
-        grid-template-columns: 1fr 1fr;
-        gap: 35px;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 025px;
 
-        // .dish-card__description {
-        //     grid-column: 1;
-        // }
+        @media screen and (min-width: 960px) {
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        }
+
+        img {
+            object-fit: cover;
+        }
     }
 }

@@ -9,7 +9,7 @@ import {
 import './restaurant.styles.scss';
 
 import DishGroup from '../dish-group/dish-group.component';
-// import DishGroupRoll from '../dish-group-roll/dish-group-roll.component';
+import DishGroupRoll from '../dish-group-roll/dish-group-roll.component';
 import DishGroupSimple from '../dish-group-simple/dish-group-simple.component';
 import CollectionFilter from '../collection-filter/collection-filter.component';
 
@@ -42,7 +42,7 @@ class Restaurant extends React.Component {
 
     const set = filterByCategory(currentDishes, 'set');
     const poke = filterByCategory(currentDishes, 'poke');
-    // const roll = filterByCategory(dishes, 'roll');
+    const roll = filterByCategory(currentDishes, 'roll');
     const tempura = filterByCategory(currentDishes, 'tempura');
     const snack = filterByCategory(currentDishes, 'snack');
     const sauce = filterByCategory(currentDishes, 'sauce');
@@ -57,20 +57,26 @@ class Restaurant extends React.Component {
             <CollectionFilter
               handleClick={this.getValue}
               currentArr={currentDishes}
-              defaultArr={restaurant.dishes}
+              defaultArr={restaurant.items}
             />
-            <ul>
-              <li>Set</li>
-              <li>Poke</li>
-              <li>Tempura</li>
-            </ul>
+            {/* <ul>
+              {restaurant.items.map((dish) => (
+                <li key={dish.category}>
+                  <a href={`#dish-group__${dish.category}`}>{dish.category}</a>
+                </li>
+              ))}
+            </ul> */}
           </div>
           <div className='menu_dishes'>
             {poke.length > 0 ? <DishGroup menu={poke[0]} /> : null}
             {set.length > 0 ? <DishGroup menu={set[0]} /> : null}
-            {/* {roll.length > 0 ? <DishGroupRoll dishes={roll} /> : null} */}
-            {tempura.length > 0 ? <DishGroupSimple menu={tempura[0]} /> : null}
-            {snack.length > 0 ? <DishGroupSimple menu={snack[0]} /> : null}
+            {roll.length > 0 ? <DishGroupRoll menu={roll[0]} /> : null}
+            <div className='grid-2'>
+              {tempura.length > 0 ? (
+                <DishGroupSimple menu={tempura[0]} />
+              ) : null}
+              {snack.length > 0 ? <DishGroupSimple menu={snack[0]} /> : null}
+            </div>
             {sauce.length > 0 ? <DishGroupSimple menu={sauce[0]} /> : null}
           </div>
         </div>

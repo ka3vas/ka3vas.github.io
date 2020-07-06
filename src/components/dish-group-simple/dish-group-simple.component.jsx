@@ -7,22 +7,23 @@ import './dish-group-simple.styles.scss';
 const DishGroupSimple = ({ menu }) => {
   return (
     <div className='dish-group__container'>
-      <div className='dish-group'>
-        <h2>{menu.category}</h2>
-        <div>
+      <div className='dish-group dish-group--simple'>
+        <h2>{menu.title}</h2>
+        <div className='dish-group__grid'>
           {menu.img ? (
             <LazyLoadImage
               src={menu.img.src}
               alt={menu.img.alt}
-              height={400}
-              threshold={100}
+              threshold={300}
+              height={250}
               effect='blur'
             />
           ) : null}
           <div>
             {menu.dishes.map((dish, i) => (
               <p key={i}>
-                {dish.title} {dish.price}
+                <span>{dish.title}</span>{' '}
+                <span>{(dish.price / 100).toFixed(2)} zł</span>
               </p>
             ))}
           </div>

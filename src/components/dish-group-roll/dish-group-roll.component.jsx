@@ -3,13 +3,15 @@ import React from 'react';
 import './dish-group-roll.styles.scss';
 
 function DishGroupRoll(props) {
+  console.log(props);
+
   return (
     <div className='dish-group__container'>
       <div className='dish-group'>
-        <h2 className='dish-group__title'>CATEGORY TITLE</h2>
-        {<p>CATEGORY DESCRIPTION</p>}
+        <h2 className='dish-group__title'>{props.menu.title}</h2>
+        <p>{props.menu.description}</p>
         <div className='dish-group-roll__wrapper'>
-          {props.dishes.map((dish) => {
+          {props.menu.dishes.map((dish) => {
             const { title, price, quantity, description } = dish;
 
             return (
