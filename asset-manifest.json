@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/gp-sushi/static/css/main.10683f7d.chunk.css",
-    "main.js": "/gp-sushi/static/js/main.1eb3276c.chunk.js",
-    "main.js.map": "/gp-sushi/static/js/main.1eb3276c.chunk.js.map",
+    "main.css": "/gp-sushi/static/css/main.e0aeaecc.chunk.css",
+    "main.js": "/gp-sushi/static/js/main.d6de60ce.chunk.js",
+    "main.js.map": "/gp-sushi/static/js/main.d6de60ce.chunk.js.map",
     "runtime-main.js": "/gp-sushi/static/js/runtime-main.44d5b21e.js",
     "runtime-main.js.map": "/gp-sushi/static/js/runtime-main.44d5b21e.js.map",
     "static/css/2.9905d55a.chunk.css": "/gp-sushi/static/css/2.9905d55a.chunk.css",
-    "static/js/2.e17f8b63.chunk.js": "/gp-sushi/static/js/2.e17f8b63.chunk.js",
-    "static/js/2.e17f8b63.chunk.js.map": "/gp-sushi/static/js/2.e17f8b63.chunk.js.map",
+    "static/js/2.04a04f08.chunk.js": "/gp-sushi/static/js/2.04a04f08.chunk.js",
+    "static/js/2.04a04f08.chunk.js.map": "/gp-sushi/static/js/2.04a04f08.chunk.js.map",
     "index.html": "/gp-sushi/index.html",
-    "precache-manifest.f3912fd046f6d53ca2f07b9819d639e8.js": "/gp-sushi/precache-manifest.f3912fd046f6d53ca2f07b9819d639e8.js",
+    "precache-manifest.085eae3ad715ae341c6d1a6d45aad87f.js": "/gp-sushi/precache-manifest.085eae3ad715ae341c6d1a6d45aad87f.js",
     "service-worker.js": "/gp-sushi/service-worker.js",
     "static/css/2.9905d55a.chunk.css.map": "/gp-sushi/static/css/2.9905d55a.chunk.css.map",
-    "static/css/main.10683f7d.chunk.css.map": "/gp-sushi/static/css/main.10683f7d.chunk.css.map",
-    "static/js/2.e17f8b63.chunk.js.LICENSE.txt": "/gp-sushi/static/js/2.e17f8b63.chunk.js.LICENSE.txt",
+    "static/css/main.e0aeaecc.chunk.css.map": "/gp-sushi/static/css/main.e0aeaecc.chunk.css.map",
+    "static/js/2.04a04f08.chunk.js.LICENSE.txt": "/gp-sushi/static/js/2.04a04f08.chunk.js.LICENSE.txt",
     "static/media/black_dragon.png": "/gp-sushi/static/media/black_dragon.251f707f.png",
     "static/media/brodnica.png": "/gp-sushi/static/media/brodnica.1029f0c0.png",
     "static/media/chojnice.png": "/gp-sushi/static/media/chojnice.beb67462.png",
@@ -55,8 +55,8 @@
   "entrypoints": [
     "static/js/runtime-main.44d5b21e.js",
     "static/css/2.9905d55a.chunk.css",
-    "static/js/2.e17f8b63.chunk.js",
-    "static/css/main.10683f7d.chunk.css",
-    "static/js/main.1eb3276c.chunk.js"
+    "static/js/2.04a04f08.chunk.js",
+    "static/css/main.e0aeaecc.chunk.css",
+    "static/js/main.d6de60ce.chunk.js"
   ]
 }
