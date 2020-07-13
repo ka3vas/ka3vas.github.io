@@ -15,7 +15,7 @@ import rollSakeJaki from '../../../images/dishes/roll/sake_jaki_roll.png';
 const roll = {
   category: 'roll',
   title: 'roll',
-  description: '--- OPIS ---',
+  description: '',
   img: {
     src: '',
     alt: 'alt',

@@ -3,7 +3,7 @@ import imgSrc from '../../../images/dishes/tempura/krewetki_w_tempurze.png';
 const tempura = {
   category: 'tempura',
   title: 'tempura',
-  description: '--- OPIS ---',
+  description: '',
   img: {
     src: imgSrc,
     alt: 'alt',

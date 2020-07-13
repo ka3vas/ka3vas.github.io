@@ -9,7 +9,8 @@ import pokeWege from '../../../images/dishes/poke/poke_wege_tofu.png';
 const poke = {
   category: 'poke',
   title: 'poke',
-  description: '--- OPIS ---',
+  description:
+    'Pokebowl, czytane jak w słowie "Pokemon", to miska z gorącym ryżem i zimną, surową rybą z wyrazistymi przyprawami i warzywami lub owocami. Danie wywodzi się z Hawajów i traktowane jest jako jedna z potraw narodowych.',
   img: {
     src: '',
     alt: 'alt',

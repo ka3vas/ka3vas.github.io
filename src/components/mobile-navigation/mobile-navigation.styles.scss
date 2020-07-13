@@ -1,0 +1,160 @@
+.mobile-navigation {
+    display: flex;
+    align-items: center;
+    background: var(--secondary-color);
+    color: var(--main-bg-color);
+    height: 100%;
+
+    button {
+        border: none;
+        background-color: unset;
+
+        svg {
+            width: 40px;
+            height: 40px;
+
+            &>g {
+                transform: translate(0px, 100px);
+            }
+
+            path {
+                fill: var(--secondary-bg-color);
+            }
+        }
+    }
+
+    .restaurant-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding-right: 10px;
+
+        span {
+            text-transform: uppercase;
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 1;
+            letter-spacing: 3px;
+        }
+    }
+
+    &__wrapper {
+        z-index: 3;
+        position: sticky;
+        top: 0;
+        right: 0;
+        left: 0;
+        height: 60px;
+    }
+}
+
+.mobile-menu {
+    color: var(--main-bg-color);
+    height: 100%;
+
+    .mt-25 {
+        margin-top: 25%;
+    }
+
+    &__wrapper {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.95);
+        transform: translateX(-103%);
+        transition: transform ease-in-out 0.5s;
+        will-change: transform;
+
+        &.active {
+            transform: none;
+
+            svg,
+            a {
+                opacity: 1;
+            }
+        }
+    }
+
+    &__header {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 90px;
+
+        button {
+            border: 0;
+            background-color: unset;
+            color: var(--main-bg-color);
+            font-size: 30px;
+            line-height: 30px;
+            padding: 30px;
+            font-weight: bold;
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+    &__navigation {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+
+            li {
+                padding: 20px;
+
+                a {
+                    font-size: 24px;
+                    font-weight: bold;
+                    letter-spacing: 3px;
+                    line-height: 1;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    color: var(--main-bg-color);
+                    opacity: 0;
+                    transition: opacity ease-in 0.5s;
+                }
+            }
+        }
+    }
+
+    &__footer {
+        display: flex;
+        justify-content: center;
+        height: 50px;
+        padding-top: 20px;
+
+        svg {
+            width: 30px;
+            height: 30px;
+            margin: 0 5px;
+            opacity: 0;
+            transition: opacity ease-in 0.5s;
+
+            path {
+                fill: var(--main-bg-color)
+            }
+        }
+    }
+}
+
+.restaurant-header {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 3px;
+    height: 100%;
+    text-align: center;
+    padding: 20px 10px;
+    background-color: var(--main-color);
+    color: var(--main-bg-color);
+}

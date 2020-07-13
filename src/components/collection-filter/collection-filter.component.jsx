@@ -56,7 +56,6 @@ class CollectionFilter extends Component {
   render() {
     // currentArr,
     const { defaultArr, currentArr, handleClick } = this.props;
-    console.log('defaultArr', defaultArr);
     return (
       <div className='menu-filters'>
         <ul className='category'>
