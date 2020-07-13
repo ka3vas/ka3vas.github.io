@@ -3,55 +3,61 @@ import React, { Component } from 'react';
 import './collection-filters.styles.scss';
 
 class CollectionFilter extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      activeFilters: [],
-    };
-  }
-
   filterAZ = (array, returnFunction) => {
-    const sortedArray = array.sort((a, b) => {
-      if (a.title < b.title) return -1;
-      if (a.title > b.title) return 1;
-      else return 0;
+    const sortedItems = array.map((item) => {
+      const sortedDishes = item.dishes.sort((a, b) => {
+        if (a.title < b.title) return -1;
+        if (a.title > b.title) return 1;
+        else return 0;
+      });
+
+      const sortedItem = { ...item, dishes: sortedDishes };
+
+      return sortedItem;
     });
 
-    returnFunction(sortedArray);
+    returnFunction(sortedItems);
   };
 
   filterZA = (array, returnFunction) => {
-    const sortedArray = array.sort((a, b) => {
-      if (a.title < b.title) return 1;
-      if (a.title > b.title) return -1;
-      else return 0;
+    const sortedItems = array.map((item) => {
+      const sortedDishes = item.dishes.sort((a, b) => {
+        if (a.title < b.title) return 1;
+        if (a.title > b.title) return -1;
+        else return 0;
+      });
+
+      const sortedItem = { ...item, dishes: sortedDishes };
+
+      return sortedItem;
     });
 
-    returnFunction(sortedArray);
+    returnFunction(sortedItems);
   };
 
   filterByPriceUp = (array, returnFunction) => {
-    const sortedArray = array.sort((a, b) => a.price - b.price);
-    returnFunction(sortedArray);
+    const sortedItems = array.map((item) => {
+      const sortedDishes = item.dishes.sort((a, b) => a.price - b.price);
+
+      const sortedItem = { ...item, dishes: sortedDishes };
+
+      return sortedItem;
+    });
+
+    returnFunction(sortedItems);
   };
 
   filterByPriceDown = (array, returnFunction) => {
-    const sortedArray = array.sort((a, b) => b.price - a.price);
-    returnFunction(sortedArray);
+    const sortedItems = array.map((item) => {
+      const sortedDishes = item.dishes.sort((a, b) => b.price - a.price);
+
+      const sortedItem = { ...item, dishes: sortedDishes };
+
+      return sortedItem;
+    });
+
+    returnFunction(sortedItems);
   };
-
-  // filterByPriceFrom = (currentArr, returnFunction, priceFrom) => {
-  //   const priceValue = priceFrom * 100;
-  //   const sortedArray = currentArr.filter((item) => item.price > priceValue);
-  //   returnFunction(sortedArray);
-  // };
-
-  // filterByPriceTo = (currentArr, returnFunction, priceFrom) => {
-  //   const priceValue = priceFrom * 100;
-  //   const sortedArray = currentArr.filter((item) => item.price < priceValue);
-  //   returnFunction(sortedArray);
-  // };
 
   render() {
     // currentArr,
@@ -95,28 +101,6 @@ class CollectionFilter extends Component {
               </li>
             </ul>
           </li>
-          {/* <li>
-            <span>Kategoria</span>
-            <ul>
-              <li>
-                <input
-                  type='checkbox'
-                  onChange={(e) =>
-                    this.updateActiveFilters(e.target.checked, 'poke')
-                  }
-                />
-              </li>
-              <li>
-                <input type='checkbox' />
-              </li>
-              <li>
-                <input type='checkbox' />
-              </li>
-              <li>
-                <input type='checkbox' />
-              </li>
-            </ul>
-          </li> */}
         </ul>
       </div>
     );

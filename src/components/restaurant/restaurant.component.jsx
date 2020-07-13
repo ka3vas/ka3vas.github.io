@@ -26,10 +26,11 @@ class Restaurant extends React.Component {
   filterByCategory = (currentDishes, category) =>
     currentDishes.filter((dish) => dish.category === category);
 
-  handleClick = (dishes, price) => {
-    const lessThanDishes = dishes.filter((dish) => dish.price < price);
-    this.props.setCurrentDishes(lessThanDishes);
-  };
+  // handleClick = (dishes, price) => {
+  //   const lessThanDishes = dishes.filter((dish) => dish.price < price);
+  //   console.log('hi');
+  //   this.props.setCurrentDishes(lessThanDishes);
+  // };
 
   getValue = (value) => {
     this.props.setCurrentDishes(value);
