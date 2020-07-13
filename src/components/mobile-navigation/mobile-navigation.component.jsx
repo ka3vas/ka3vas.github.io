@@ -8,8 +8,6 @@ import FacebookIcon from '../../assets/icons/facebook.icon';
 import InstagramIcon from '../../assets/icons/instagram.icon';
 
 const MobileNavigation = (props) => {
-  console.log(props);
-
   const [isOpen, setOpen] = useState(false);
 
   const { restaurant } = props.currentRestaurant;
