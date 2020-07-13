@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 
-import FacebookIcon from '../../assets/icons/facebook.icon-component';
-import InstagramkIcon from '../../assets/icons/instagram.icon-component';
+import FacebookIcon from '../../assets/icons/facebook.icon';
+import InstagramIcon from '../../assets/icons/instagram.icon';
 
 import defaultImg from '../../assets/images/torun.png';
 
@@ -58,7 +58,7 @@ function Navigation(props) {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                <InstagramkIcon />
+                <InstagramIcon />
               </a>
             </>
           ) : null}

@@ -1,7 +1,7 @@
 const classic = {
   category: 'classic',
   title: 'classic sushi',
-  description: '--- OPIS ---',
+  description: '',
   img: {
     src: '',
     alt: 'alt',

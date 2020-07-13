@@ -13,7 +13,7 @@ import setSurowychRyb from '../../../images/dishes/set/set_surowych_ryb.png';
 const set = {
   category: 'set',
   title: 'set',
-  description: '--- OPIS ---',
+  description: '',
   img: {
     src: '',
     alt: 'alt',

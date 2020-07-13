@@ -5,7 +5,6 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 import './dish-group.styles.scss';
 
 function DishGroup(props) {
-  console.log('props', props);
   const { menu } = props;
 
   const { dishes, category } = menu;

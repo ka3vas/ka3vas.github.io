@@ -3,8 +3,6 @@ import React from 'react';
 import './dish-group-roll.styles.scss';
 
 function DishGroupRoll(props) {
-  console.log(props);
-
   return (
     <div className='dish-group__container'>
       <div className='dish-group'>
