@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/gp-sushi/precache-manifest.e906a81dc5520e5b3740331e9b177848.js"
+  "/gp-sushi/precache-manifest.161f9c21d47cbd30b847d2383b5ec1a4.js"
 );
 
 self.addEventListener('message', (event) => {
