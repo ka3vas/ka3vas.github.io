@@ -1,13 +1,18 @@
 import React from 'react';
 
-function PhoneIcon() {
+function SendEmail() {
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
       xmlnsXlink='http://www.w3.org/1999/xlink'
       xmlSpace='preserve'
       version='1.1'
-      viewBox='0 0 363 453.75'
+      style={{
+        shapeRendering: 'geometricPrecision',
+        textRendering: 'geometricPrecision',
+        imageRendering: 'optimizeQuality',
+      }}
+      viewBox='0 0 240 260'
       x='0px'
       y='0px'
       fillRule='evenodd'
@@ -15,21 +20,24 @@ function PhoneIcon() {
     >
       <defs></defs>
       <g>
-        <path d='M96 135l23 -11c10,-5 14,-16 11,-26l-30 -83c-2,-7 -8,-12 -16,-14 -26,-4 -47,3 -64,19 -14,13 -21,30 -20,49 8,134 161,286 294,294 19,2 36,-5 50,-19 16,-17 23,-38 18,-65 -1,-7 -6,-13 -14,-16l-83 -29c-10,-4 -21,1 -26,11l-10 22c-61,-22 -110,-72 -133,-132z' />
+        <polygon
+          className='fil0'
+          points='245,0 101,208 70,166 44,183 42,126 189,32 29,107 0,66 '
+        />
       </g>
       {/* <text
         x='0'
-        y='378'
+        y='223'
         fill='#000000'
         fontSize='5px'
         fontWeight='bold'
         fontFamily="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif"
       >
-        Created by Wilshon Athena
+        Created by Briyan Design
       </text>
       <text
         x='0'
-        y='383'
+        y='228'
         fill='#000000'
         fontSize='5px'
         fontWeight='bold'
@@ -41,4 +49,4 @@ function PhoneIcon() {
   );
 }
 
-export default PhoneIcon;
+export default SendEmail;

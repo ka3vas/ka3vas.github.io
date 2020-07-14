@@ -1,31 +1,15 @@
 const workingHours = [
   {
-    openAt: '12',
-    closesAt: '21',
+    openAt: '12:00',
+    closesAt: '21:00',
   },
   {
-    openAt: '12',
-    closesAt: '21',
+    openAt: '12:00',
+    closesAt: '22:00',
   },
   {
-    openAt: '12',
-    closesAt: '21',
-  },
-  {
-    openAt: '12',
-    closesAt: '21',
-  },
-  {
-    openAt: '12',
-    closesAt: '22',
-  },
-  {
-    openAt: '12',
-    closesAt: '22',
-  },
-  {
-    openAt: '12',
-    closesAt: '21',
+    openAt: '12:00',
+    closesAt: '21:00',
   },
 ];
 

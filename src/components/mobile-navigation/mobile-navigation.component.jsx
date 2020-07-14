@@ -63,6 +63,7 @@ const MobileNavigation = (props) => {
                   </li>
                 </ul>
               </div>
+              <p>Bądź na bierząco!</p>
               <div className='mobile-menu__footer'>
                 <div>
                   <a
