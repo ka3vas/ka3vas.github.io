@@ -43,6 +43,9 @@ class App extends Component {
 
   render() {
     const { width } = this.state.app;
+
+    const { restaurant } = this.props.currentRestaurant;
+
     return (
       <HashRouter basename='/'>
         <div className='App'>
