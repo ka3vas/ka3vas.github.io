@@ -49,7 +49,7 @@ class App extends Component {
     return (
       <HashRouter basename='/'>
         <div className='App'>
-          {width > 767 ? (
+          {width > 767 && restaurant ? (
             <>
               <div className='blinder'></div>
               <Navigation />
