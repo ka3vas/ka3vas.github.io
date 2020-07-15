@@ -16,11 +16,11 @@ const Catering = (props) => {
   useEffect(() => {
     const width = window.innerWidth;
     width > 640
-      ? width > 1920
+      ? width > 1200
         ? setImage(bgImgLg)
         : setImage(bgImgMd)
       : setImage(bgImgSm);
-  });
+  }, []);
 
   return (
     <div className='catering__wrapper'>
