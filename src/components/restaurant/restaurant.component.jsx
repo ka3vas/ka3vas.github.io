@@ -12,6 +12,7 @@ import DishGroup from '../dish-group/dish-group.component';
 import DishGroupRoll from '../dish-group-roll/dish-group-roll.component';
 import DishGroupSimple from '../dish-group-simple/dish-group-simple.component';
 import CollectionFilter from '../collection-filter/collection-filter.component';
+import MobileCta from '../mobile-cta/mobile-cta.component';
 
 class Restaurant extends React.Component {
   componentDidMount() {
@@ -50,6 +51,7 @@ class Restaurant extends React.Component {
 
     return (
       <div className='restaurant-display'>
+        <MobileCta phone={restaurant.phone} />
         <div className='go-back'>
           <Link to='/'>Z powrotem</Link>
         </div>
