@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/gp-sushi/static/css/main.5418ef8a.chunk.css",
-    "main.js": "/gp-sushi/static/js/main.db8a1531.chunk.js",
-    "main.js.map": "/gp-sushi/static/js/main.db8a1531.chunk.js.map",
+    "main.js": "/gp-sushi/static/js/main.0fc0356a.chunk.js",
+    "main.js.map": "/gp-sushi/static/js/main.0fc0356a.chunk.js.map",
     "runtime-main.js": "/gp-sushi/static/js/runtime-main.44d5b21e.js",
     "runtime-main.js.map": "/gp-sushi/static/js/runtime-main.44d5b21e.js.map",
     "static/css/2.9905d55a.chunk.css": "/gp-sushi/static/css/2.9905d55a.chunk.css",
     "static/js/2.d393f48d.chunk.js": "/gp-sushi/static/js/2.d393f48d.chunk.js",
     "static/js/2.d393f48d.chunk.js.map": "/gp-sushi/static/js/2.d393f48d.chunk.js.map",
     "index.html": "/gp-sushi/index.html",
-    "precache-manifest.8a8d3fa93aab5c4ab60d71891361ece7.js": "/gp-sushi/precache-manifest.8a8d3fa93aab5c4ab60d71891361ece7.js",
+    "precache-manifest.f643ed8dc55654c12b0fd6c7b74fae1e.js": "/gp-sushi/precache-manifest.f643ed8dc55654c12b0fd6c7b74fae1e.js",
     "service-worker.js": "/gp-sushi/service-worker.js",
     "static/css/2.9905d55a.chunk.css.map": "/gp-sushi/static/css/2.9905d55a.chunk.css.map",
     "static/css/main.5418ef8a.chunk.css.map": "/gp-sushi/static/css/main.5418ef8a.chunk.css.map",
@@ -60,6 +60,6 @@
     "static/css/2.9905d55a.chunk.css",
     "static/js/2.d393f48d.chunk.js",
     "static/css/main.5418ef8a.chunk.css",
-    "static/js/main.db8a1531.chunk.js"
+    "static/js/main.0fc0356a.chunk.js"
   ]
 }
