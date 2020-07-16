@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0a9c24f5858d7e9131f7ef55010f93c3",
+    "revision": "e4edbbc494219ef934b6abb59236f9f7",
     "url": "/gp-sushi/index.html"
   },
   {
