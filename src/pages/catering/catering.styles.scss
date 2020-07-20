@@ -1,90 +1,206 @@
+// .catering {
+//     &__wrapper {
+//         max-width: 1200px;
+//         margin: 0 auto;
+//         margin-top: auto;
+//         padding-bottom: 80px;
+
+//         .display-wrapper {
+//             @media screen and (min-width: 1024px) {
+//                 display: flex;
+//             }
+//         }
+
+//         h1 {
+//             color: var(--main-color);
+//             font-size: 48px;
+//             text-transform: uppercase;
+//             text-align: center;
+//             padding: 24px 0 0;
+//         }
+//     }
+
+//     &__image {
+//         padding: 10px;
+
+//         img {
+//             width: 100%;
+//             max-height: 30vh;
+//             object-fit: cover;
+//             border-radius: 5px;
+//         }
+//     }
+
+//     &__text {
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         padding: 20px 10px;
+//         width: 100%;
+//         box-sizing: border-box;
+
+//         p {
+//             letter-spacing: 1px;
+//             line-height: 1.6;
+//             font-size: 14px;
+//             padding: 10px 0;
+//             margin: 0 auto;
+//             max-width: 50ch;
+//             text-align: justify;
+
+//             &:last-of-type {
+//                 padding-top: 40px;
+//                 text-align: center;
+//                 font-size: 16px;
+//                 font-weight: bold;
+//             }
+//         }
+
+//         .call-btn {
+//             display: flex;
+//             justify-content: center;
+//             align-items: center;
+//             text-decoration: none;
+//             color: var(--secondary-color);
+//             font-size: 14px;
+//             text-decoration: none;
+//             border: 2px solid var(--secondary-color);
+//             border-radius: 5px;
+//             transition: all 0.5s ease-in-out;
+//             padding: 5px 10px;
+//             max-width: 200px;
+//             width: 100%;
+//             margin: 0 auto;
+
+//             .btn--round {
+//                 display: flex;
+//                 justify-content: center;
+//                 align-items: center;
+//                 padding-right: 10px;
+//                 padding-top: 5px;
+//                 border-radius: 5px;
+
+//                 svg {
+//                     height: 25px;
+
+//                     path {
+//                         fill: var(--secondary-color);
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
 .catering {
     &__wrapper {
-        max-width: 1200px;
-        margin: 0 auto;
-        margin-top: auto;
-        padding-bottom: 80px;
-
-        .display-wrapper {
-            @media screen and (min-width: 1024px) {
-                display: flex;
-            }
-        }
-
-        h1 {
-            color: var(--main-color);
-            font-size: 48px;
-            text-transform: uppercase;
-            text-align: center;
-            padding: 24px 0 0;
-        }
+        position: relative;
     }
 
     &__image {
-        padding: 10px;
+        height: calc(100vh - 80px);
 
         img {
             width: 100%;
-            max-height: 30vh;
+            height: 100%;
             object-fit: cover;
-            border-radius: 5px;
         }
     }
 
     &__text {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 20px 10px;
-        width: 100%;
-        box-sizing: border-box;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
 
-        p {
-            letter-spacing: 1px;
-            line-height: 1.6;
-            font-size: 14px;
-            padding: 10px 0;
-            margin: 0 auto;
-            max-width: 50ch;
-            text-align: justify;
-
-            &:last-of-type {
-                padding-top: 40px;
-                text-align: center;
-                font-size: 16px;
-                font-weight: bold;
-            }
+        h1 {
+            background: var(--secondary-color-tranparent);
+            color: var(--main-bg-color);
+            font-size: 5vh;
+            padding: 10px 50px;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 10px;
+            margin: 0;
+            // opacity: 0.9;
         }
 
-        .call-btn {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-decoration: none;
-            color: var(--secondary-color);
-            font-size: 14px;
-            text-decoration: none;
-            border: 2px solid var(--secondary-color);
-            border-radius: 5px;
-            transition: all 0.5s ease-in-out;
-            padding: 5px 10px;
-            max-width: 200px;
+        .wrapper {
+            box-sizing: border-box;
             width: 100%;
-            margin: 0 auto;
+            margin: auto;
+            height: auto;
+            background-color: var(--main-color);
+            color: var(--main-bg-color);
+            opacity: 0.9;
+            overflow: auto;
+            padding: 60px 30px;
 
-            .btn--round {
+            .border--dash {
+                padding: 60px 30px;
+                border: 3px dashed var(--secondary-color);
+            }
+
+            p {
+                margin: 0;
+
+                &:last-of-type {
+                    margin-bottom: 90px;
+                }
+            }
+
+            .call-btn {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                padding-right: 10px;
-                padding-top: 5px;
+                text-decoration: none;
+                background: none;
+                color: var(--secondary-color);
+                text-decoration: none;
+                border: 2px dashed var(--secondary-color);
                 border-radius: 5px;
+                font-size: 14px;
+                transition: all 0.5s ease-in;
+                padding: 10px 20px;
+                max-width: 300px;
+                margin: 0 auto;
 
-                svg {
-                    height: 25px;
+                @media screen and (min-width: 400px) {
+                    letter-spacing: 3px;
+                }
 
-                    path {
-                        fill: var(--secondary-color);
+                @media screen and (min-width: 768px) {
+                    font-size: 20px;
+                }
+
+                &:hover {
+                    background: var(--secondary-color);
+                    color: var(--main-bg-color);
+
+                    .btn--round {
+                        svg {
+                            path {
+                                fill: var(--main-bg-color);
+                            }
+                        }
+                    }
+                }
+
+                .btn--round {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding-right: 10px;
+                    padding-top: 5px;
+                    border-radius: 5px;
+
+                    svg {
+                        height: 25px;
+
+                        path {
+                            transition: all 0.5s ease-in;
+                            fill: var(--secondary-color);
+                        }
                     }
                 }
             }
