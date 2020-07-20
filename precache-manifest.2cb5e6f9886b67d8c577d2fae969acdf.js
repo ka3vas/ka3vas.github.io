@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "16953e190f88ddc8ebf481751aabf99a",
+    "revision": "cb4099e6e24558fd6dc4c617348230f0",
     "url": "/gp-sushi/index.html"
   },
   {
-    "revision": "1a543150efd7e6d240b6",
+    "revision": "a7a004b468d18e96dca8",
     "url": "/gp-sushi/static/css/2.9905d55a.chunk.css"
   },
   {
-    "revision": "9f5d5d64f430025bab2f",
-    "url": "/gp-sushi/static/css/main.373acd3d.chunk.css"
+    "revision": "e8c4e9963ff0442fe6de",
+    "url": "/gp-sushi/static/css/main.15319088.chunk.css"
   },
   {
-    "revision": "1a543150efd7e6d240b6",
-    "url": "/gp-sushi/static/js/2.d393f48d.chunk.js"
+    "revision": "a7a004b468d18e96dca8",
+    "url": "/gp-sushi/static/js/2.cdf1aecf.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/gp-sushi/static/js/2.d393f48d.chunk.js.LICENSE.txt"
+    "url": "/gp-sushi/static/js/2.cdf1aecf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9f5d5d64f430025bab2f",
-    "url": "/gp-sushi/static/js/main.ea8fff34.chunk.js"
+    "revision": "e8c4e9963ff0442fe6de",
+    "url": "/gp-sushi/static/js/main.077e68c6.chunk.js"
   },
   {
     "revision": "4a6cbd54d06d9eb244c4",
@@ -50,6 +50,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "beb674620131d3bb727ff6ed10a2775e",
     "url": "/gp-sushi/static/media/chojnice.beb67462.png"
+  },
+  {
+    "revision": "b8d9dc051009b036c610c9291ea90f88",
+    "url": "/gp-sushi/static/media/contact-us-2-lg.b8d9dc05.jpg"
+  },
+  {
+    "revision": "a83fa421aeec52ab0a7d56b7d187f737",
+    "url": "/gp-sushi/static/media/contact-us-2-md.a83fa421.jpg"
+  },
+  {
+    "revision": "56c8e257e1a004dedc01e62f8df597e2",
+    "url": "/gp-sushi/static/media/contact-us-2-sm.56c8e257.jpg"
   },
   {
     "revision": "9556616b1fb31dc1d8031c8556233842",
