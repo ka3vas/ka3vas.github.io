@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { connect } from 'react-redux';
 
 import ContactCards from '../../components/contact-cards/contact-cards.component';
@@ -6,14 +6,37 @@ import ContactCards from '../../components/contact-cards/contact-cards.component
 import ClockIcon from '../../assets/icons/clock.icon';
 import './contactus.styles.scss';
 
+// import bgImgSm from '../../assets/images/stock/contact-us-sm.jpg';
+// import bgImgMd from '../../assets/images/stock/contact-us-md.jpg';
+// import bgImgLg from '../../assets/images/stock/contact-us-lg.jpg';
+
+import bgImgSm from '../../assets/images/stock/contact-us-2-sm.jpg';
+import bgImgMd from '../../assets/images/stock/contact-us-2-md.jpg';
+import bgImgLg from '../../assets/images/stock/contact-us-2-lg.jpg';
+
 const ContactUs = (props) => {
+  const [image, setImage] = useState(bgImgSm);
+
   const { restaurant } = props.currentRestaurant;
+
+  useEffect(() => {
+    const width = window.innerWidth;
+    width > 640
+      ? width > 1200
+        ? setImage(bgImgLg)
+        : setImage(bgImgMd)
+      : setImage(bgImgSm);
+  }, []);
 
   console.log(restaurant);
   return (
     <>
       {restaurant ? (
         <div className='page container'>
+          <div
+            className='page__image'
+            style={{ backgroundImage: `url("${image}")` }}
+          ></div>
           <h1>Kontakt</h1>
           <p>
             W razie jakichkolwiek pytań prosimy o kontakt w preferowany przez

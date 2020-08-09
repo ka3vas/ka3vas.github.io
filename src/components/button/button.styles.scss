@@ -1,0 +1,56 @@
+.call-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background: none;
+    color: var(--secondary-color);
+    text-decoration: none;
+    border: 2px dashed var(--secondary-color);
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.25s ease-in;
+    padding: 10px 20px;
+    max-width: 300px;
+    margin: 0 auto;
+
+    @media screen and (min-width: 400px) {
+        letter-spacing: 2px;
+    }
+
+    @media screen and (min-width: 768px) {
+        font-size: 20px;
+    }
+
+    &:hover {
+        background: var(--secondary-color);
+        color: var(--main-bg-color);
+        // border: 2px solid var(--secondary-bg-color);
+
+        .btn--round {
+            svg {
+                path {
+                    fill: var(--main-bg-color);
+                }
+            }
+        }
+    }
+
+    .btn--round {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 10px;
+        padding-top: 5px;
+        border-radius: 5px;
+
+        svg {
+            height: 25px;
+
+            path {
+                transition: all 0.25s ease-in;
+                fill: var(--secondary-color);
+            }
+        }
+    }
+}
