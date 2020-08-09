@@ -1,21 +1,20 @@
 {
   "files": {
     "main.css": "/gp-sushi/static/css/main.fe8877a8.chunk.css",
-    "main.js": "/gp-sushi/static/js/main.8f45542c.chunk.js",
-    "main.js.map": "/gp-sushi/static/js/main.8f45542c.chunk.js.map",
+    "main.js": "/gp-sushi/static/js/main.c914d671.chunk.js",
+    "main.js.map": "/gp-sushi/static/js/main.c914d671.chunk.js.map",
     "runtime-main.js": "/gp-sushi/static/js/runtime-main.44d5b21e.js",
     "runtime-main.js.map": "/gp-sushi/static/js/runtime-main.44d5b21e.js.map",
     "static/css/2.9905d55a.chunk.css": "/gp-sushi/static/css/2.9905d55a.chunk.css",
-    "static/js/2.cdf1aecf.chunk.js": "/gp-sushi/static/js/2.cdf1aecf.chunk.js",
-    "static/js/2.cdf1aecf.chunk.js.map": "/gp-sushi/static/js/2.cdf1aecf.chunk.js.map",
+    "static/js/2.bb183e66.chunk.js": "/gp-sushi/static/js/2.bb183e66.chunk.js",
+    "static/js/2.bb183e66.chunk.js.map": "/gp-sushi/static/js/2.bb183e66.chunk.js.map",
     "index.html": "/gp-sushi/index.html",
-    "precache-manifest.efe691064b9f776970705733e242e1a3.js": "/gp-sushi/precache-manifest.efe691064b9f776970705733e242e1a3.js",
+    "precache-manifest.b5147d2864bf4fba797f60078682c7ad.js": "/gp-sushi/precache-manifest.b5147d2864bf4fba797f60078682c7ad.js",
     "service-worker.js": "/gp-sushi/service-worker.js",
     "static/css/2.9905d55a.chunk.css.map": "/gp-sushi/static/css/2.9905d55a.chunk.css.map",
     "static/css/main.fe8877a8.chunk.css.map": "/gp-sushi/static/css/main.fe8877a8.chunk.css.map",
-    "static/js/2.cdf1aecf.chunk.js.LICENSE.txt": "/gp-sushi/static/js/2.cdf1aecf.chunk.js.LICENSE.txt",
+    "static/js/2.bb183e66.chunk.js.LICENSE.txt": "/gp-sushi/static/js/2.bb183e66.chunk.js.LICENSE.txt",
     "static/media/black_dragon.png": "/gp-sushi/static/media/black_dragon.251f707f.png",
-    "static/media/brodnica.png": "/gp-sushi/static/media/brodnica.1029f0c0.png",
     "static/media/catering-lg.jpg": "/gp-sushi/static/media/catering-lg.5798b047.jpg",
     "static/media/catering-md.jpg": "/gp-sushi/static/media/catering-md.aa491adb.jpg",
     "static/media/catering-sm.jpg": "/gp-sushi/static/media/catering-sm.f3a83b25.jpg",
@@ -61,8 +60,8 @@
   "entrypoints": [
     "static/js/runtime-main.44d5b21e.js",
     "static/css/2.9905d55a.chunk.css",
-    "static/js/2.cdf1aecf.chunk.js",
+    "static/js/2.bb183e66.chunk.js",
     "static/css/main.fe8877a8.chunk.css",
-    "static/js/main.8f45542c.chunk.js"
+    "static/js/main.c914d671.chunk.js"
   ]
 }
