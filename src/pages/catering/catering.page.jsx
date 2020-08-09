@@ -2,11 +2,12 @@ import React, { useEffect, useState } from 'react';
 import { connect } from 'react-redux';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
+import Button from '../../components/button/button.component';
+
 import './catering.styles.scss';
 import bgImgSm from '../../assets/images/stock/catering-sm.jpg';
 import bgImgMd from '../../assets/images/stock/catering-md.jpg';
 import bgImgLg from '../../assets/images/stock/catering-lg.jpg';
-import PhoneIcon from '../../assets/icons/phone.icon';
 
 const Catering = (props) => {
   const [image, setImage] = useState(bgImgSm);
@@ -39,22 +40,7 @@ const Catering = (props) => {
                 dostosować propozycję do oczekiwań.
               </p>
               <p>Serdecznie zapraszamy do kontaktu telefonicznego.</p>
-              {restaurant ? (
-                <>
-                  <a
-                    className='call-btn'
-                    href={`tel:${restaurant.phone.directional}${restaurant.phone.number}`}
-                  >
-                    <span className='btn--round'>
-                      <PhoneIcon />
-                    </span>
-                    <span>
-                      +{restaurant.phone.directional}{' '}
-                      {restaurant.phone.number.replace(/(.{3})/g, '$1 ')}
-                    </span>
-                  </a>
-                </>
-              ) : null}
+              {restaurant ? <Button phone={restaurant.phone} /> : null}
             </div>
           </div>
         </div>

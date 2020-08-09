@@ -21,5 +21,11 @@
         &:active {
             border: none;
         }
+
+        svg {
+            path {
+                fill: var(--main-bg-color);
+            }
+        }
     }
 }

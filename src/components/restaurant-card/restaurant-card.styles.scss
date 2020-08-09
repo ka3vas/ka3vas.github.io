@@ -29,65 +29,24 @@
             &__city {
                 text-transform: uppercase;
                 text-decoration: none;
-                font-size: 24px;
+                font-size: 48px;
                 letter-spacing: 1px;
                 font-weight: bold;
-                color: var(--secondary-color);
+                color: var(--secondary-font-color);
                 line-height: 1;
             }
 
             &__phone {
-                font-size: 16px;
-                line-height: 1.7;
-                padding-top: 16px;
+                max-width: 200px;
+                margin: 0 auto;
 
-                a {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    text-decoration: none;
-                    color: var(--secondary-color);
-                    font-size: 14px;
-                    text-decoration: none;
-                    border: 2px solid var(--secondary-color);
-                    border-radius: 5px;
-                    transition: all 0.5s ease-in-out;
-                    padding: 5px 10px;
-                    max-width: 200px;
-                    margin: 0 auto;
-
-                    &:hover {
-                        background: var(--secondary-color);
-                        color: var(--secondary-bg-color);
-                        border: 2px solid var(--secondary-bg-color);
-
-                        svg {
-                            path {
-                                fill: var(--secondary-bg-color);
-                            }
-                        }
-                    }
-
-                    .btn--round {
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        padding-right: 10px;
-                        padding-top: 5px;
-                        border-radius: 5px;
-                    }
-
-                    svg {
-                        path {
-                            fill: var(--secondary-color);
-                            transition: fill 0.5s ease-in-out;
-                        }
-                    }
+                @media screen and (min-width: 768px) {
+                    max-width: 300px;
                 }
             }
 
             &__address {
-                font-size: 14px;
+                font-size: 12px;
                 line-height: 1;
                 color: var(--main-color);
                 padding: 0 0 10px;

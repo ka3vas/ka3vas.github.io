@@ -30,7 +30,7 @@ const set = {
     },
     {
       imgSrc: setSashimi,
-      title: 'aa set sashimi',
+      title: 'set sashimi',
       price: 6800,
       quantity: 20,
       description: 'Mix sashimi (łosoś, tuńczyk, węgorz, krewetka).',
@@ -65,7 +65,7 @@ const set = {
     },
     {
       imgSrc: setMix,
-      title: 'zz set mix',
+      title: 'set mix',
       price: 11900,
       quantity: 34,
       description:

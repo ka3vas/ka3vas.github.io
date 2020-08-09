@@ -1,6 +1,7 @@
 import React from 'react';
 
 import ClipboardCopy from '../clipboard-copy/clipboard-copy.component';
+import Button from '../button/button.component';
 
 import PhoneIcon from '../../assets/icons/phone.icon';
 import SendEmail from '../../assets/icons/send-email.icon';
@@ -26,13 +27,7 @@ const ContactCards = ({ restaurant }) => {
         </div>
         <div className='contact-card__title'>telefon</div>
         <div className='contact-card__info'>
-          <a
-            className='action-btn'
-            href={`tel:${restaurant.phone.directional}${restaurant.phone.number}`}
-          >
-            +{restaurant.phone.directional}{' '}
-            {restaurant.phone.number.replace(/(.{3})/g, '$1 ')}
-          </a>
+          <Button phone={restaurant.phone} />
         </div>
       </div>
       <div className='contact-card'>

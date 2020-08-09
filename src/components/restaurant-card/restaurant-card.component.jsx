@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import PhoneIcon from '../../assets/icons/phone.icon';
+import Button from '../button/button.component';
 
 import './restaurant-card.styles.scss';
+import PhoneIcon from '../../assets/icons/phone.icon';
 
 const RestaurantCard = ({ restaurant }) => {
   return (
@@ -23,18 +24,7 @@ const RestaurantCard = ({ restaurant }) => {
         <div className='card-info__address'>{`ul. ${restaurant.address[0].street} ${restaurant.address[0].number}`}</div>
 
         <div className='card-info__phone'>
-          <a
-            href={`tel:${restaurant.phone.directional}${restaurant.phone.number}`}
-          >
-            <span className='btn--round'>
-              <PhoneIcon />
-            </span>
-            <span>
-              {`+${
-                restaurant.phone.directional
-              } ${restaurant.phone.number.replace(/(.{3})/g, '$1 ')}`}
-            </span>
-          </a>
+          <Button phone={restaurant.phone} />
         </div>
       </div>
     </div>

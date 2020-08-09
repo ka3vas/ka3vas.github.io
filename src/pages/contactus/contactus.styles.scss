@@ -6,30 +6,42 @@
     padding: 40px 15px;
 
     h1 {
-        color: var(--main-color);
+        position: relative;
+        z-index: 2;
+        color: var(--secondary-bg-color);
         font-size: 48px;
         text-transform: uppercase;
         text-align: center;
         padding: 24px 0 0;
+        line-height: 1;
+        background: var(--main-color-transparent);
 
         @media screen and (min-width: 1024px) {
-            padding: 96px 0 0;
+            margin: 96px 0 0;
         }
     }
 
     p {
+        margin: 0;
+        position: relative;
+        z-index: 2;
         letter-spacing: 1px;
-        line-height: 1.6;
+        line-height: 1.7;
         font-size: 14px;
         font-style: normal;
         text-align: center;
-        margin: 0 auto;
-        max-width: 45ch;
-        padding-top: 10px;
+        width: 100%;
+        // max-width: 45ch;
+        box-sizing: border-box;
+        padding: 10px 40px;
+        color: var(--secondary-bg-color);
+        background: var(--main-color-transparent);
     }
 
     .work-hours {
-        background: var(--secondary-bg-color);
+        position: relative;
+        z-index: 2;
+        background: var(--main-color-transparent);
         margin: 96px 0;
 
         &__title {
@@ -38,10 +50,17 @@
             align-items: center;
             font-size: 32px;
             padding: 48px 0 0;
+            color: var(--secondary-bg-color);
 
             .icon {
-                width: 50px;
-                height: 50px;
+                width: 150px;
+                height: 150px;
+
+                svg {
+                    path {
+                        fill: var(--secondary-color);
+                    }
+                }
             }
         }
 
@@ -53,6 +72,7 @@
             grid-auto-rows: 1fr;
             gap: 20px 0;
             max-width: 300px;
+            color: var(--secondary-bg-color);
 
             li {
                 display: grid;
@@ -70,5 +90,16 @@
                 }
             }
         }
+    }
+
+    &__image {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        background-position: center;
+        background-size: cover;
     }
 }
