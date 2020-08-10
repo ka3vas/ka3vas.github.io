@@ -16,7 +16,7 @@
     "redux": "^4.0.5",
     "redux-logger": "^3.0.6"
   },
-  "homepage": "http://ka3vas.github.io/gp-sushi",
+  "homepage": "http://ka3vas.github.io/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
