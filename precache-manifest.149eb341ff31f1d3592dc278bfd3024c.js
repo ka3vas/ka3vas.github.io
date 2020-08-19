@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "849268f9164d47c7a56b27c6b0c0c571",
+    "revision": "cc28db0829f1a52a2ee2f0cb9b242a2d",
     "url": "/index.html"
   },
   {
-    "revision": "bb6ca1c3e2a072c74643",
+    "revision": "d03e8b2a5942f8bbc0a2",
     "url": "/static/css/2.9905d55a.chunk.css"
   },
   {
-    "revision": "69c54979b8235e3e8d02",
-    "url": "/static/css/main.fe8877a8.chunk.css"
+    "revision": "f98ad7b243faa9954080",
+    "url": "/static/css/main.2e86f911.chunk.css"
   },
   {
-    "revision": "bb6ca1c3e2a072c74643",
-    "url": "/static/js/2.bb183e66.chunk.js"
+    "revision": "d03e8b2a5942f8bbc0a2",
+    "url": "/static/js/2.acec9249.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.bb183e66.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.acec9249.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "69c54979b8235e3e8d02",
-    "url": "/static/js/main.513a3b76.chunk.js"
+    "revision": "f98ad7b243faa9954080",
+    "url": "/static/js/main.6e21344d.chunk.js"
   },
   {
     "revision": "81eb2a7f2b9c607a9d2e",
@@ -42,10 +42,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f3a83b253ead6a7fa202617f2a3024e4",
     "url": "/static/media/catering-sm.f3a83b25.jpg"
-  },
-  {
-    "revision": "beb674620131d3bb727ff6ed10a2775e",
-    "url": "/static/media/chojnice.beb67462.png"
   },
   {
     "revision": "b8d9dc051009b036c610c9291ea90f88",
@@ -98,10 +94,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5278539e24af6f5dfd7265c11bff3ad2",
     "url": "/static/media/krewetki_w_tempurze.5278539e.png"
-  },
-  {
-    "revision": "127d29ee87d2605ba761a1a10400d676",
-    "url": "/static/media/kwidzyn.127d29ee.png"
   },
   {
     "revision": "d6dde15099c3d03dfb02c40b78269b3a",
@@ -170,10 +162,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "614940a44bb93e1358078e0651644b8c",
     "url": "/static/media/sushi.614940a4.png"
-  },
-  {
-    "revision": "d7f6c1c6a8bc1b0fd1c086933e2823f0",
-    "url": "/static/media/swiecie.d7f6c1c6.png"
   },
   {
     "revision": "40b51b05eb5079599949670383f54896",
