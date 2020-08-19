@@ -33,7 +33,7 @@ function Footer(props) {
         <InstagramkIcon />
       </div> */}
       <div className='copy'>
-        All rights reserved Copyright © 2020 <br /> Sebastian Krata
+        All rights reserved Copyright © 2020 <br /> Sushipokego
       </div>
       {/* <div>
         Icons made by{' '}
