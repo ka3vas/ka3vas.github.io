@@ -16,7 +16,7 @@ const MobileCta = ({ phone }) => {
       {width <= 768 ? (
         <div className='mobile-cta__wrapper'>
           <div className='mobile-cta'>
-            <a href={`tel:${fullNumber}`}>
+            <a href={`tel:+${fullNumber}`}>
               <PhoneIcon />
             </a>
           </div>
