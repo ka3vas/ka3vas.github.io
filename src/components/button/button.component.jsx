@@ -7,7 +7,7 @@ const Button = (props) => {
   const { phone } = props;
 
   return (
-    <a className='call-btn' href={`tel:${phone.directional}${phone.number}`}>
+    <a className='call-btn' href={`tel:+${phone.directional}${phone.number}`}>
       <span className='btn--round'>
         <PhoneIcon />
       </span>

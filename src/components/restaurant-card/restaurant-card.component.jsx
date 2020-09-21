@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Button from '../button/button.component';
 
 import './restaurant-card.styles.scss';
-import PhoneIcon from '../../assets/icons/phone.icon';
+// import PhoneIcon from '../../assets/icons/phone.icon';
 
 const RestaurantCard = ({ restaurant }) => {
   return (
