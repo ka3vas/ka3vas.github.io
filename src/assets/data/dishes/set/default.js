@@ -57,7 +57,7 @@ const set = {
     {
       imgSrc: setSurowychRyb,
       title: 'set z surowych ryb',
-      price: 9100,
+      price: 9500,
       quantity: 30,
       description:
         'Futomaki z łososiem (6 szt.), Futomaki z tuńczykiem (6 szt.), Fujiyama z tatarem z tuńczyka (5 szt.), Uramaki z tataremz tuńczyka (5 szt.), Hosomaki z łososiem (6 szt.), Nigiri z łososiem (2 szt.).',
@@ -75,7 +75,7 @@ const set = {
     {
       imgSrc: setYakuza,
       title: 'yakuza set',
-      price: 12300,
+      price: 13000,
       quantity: 40,
       description:
         'Inari Gunkan Łosoś (2 szt.), Nigiri mix (4 szt.), Sake roll z migdałami (5 szt.), Futomaki Łosoś (6 szt.), Futomaki Krewetka (6 szt.), Hosomaki Łosoś (6 szt.), Hosomaki Tuńczyk (6 szt.), Sake spicy tatar (5 szt.).',

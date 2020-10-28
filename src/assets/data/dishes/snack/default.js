@@ -33,14 +33,6 @@ const snack = {
       featured: false,
       avaiableFor: ['torun', 'swiecie'],
     },
-    {
-      title: 'małże nowozelandzkie',
-      price: 2600,
-      quantity: null,
-      description: '',
-      featured: false,
-      avaiableFor: ['swiecie'],
-    },
   ],
 };
 
