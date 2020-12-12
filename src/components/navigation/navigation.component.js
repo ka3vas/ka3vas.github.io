@@ -46,20 +46,24 @@ function Navigation(props) {
               <Link to={restaurant.url} className='social__city'>
                 {restaurant.city}
               </Link>
-              <a
-                href={restaurant.facebook}
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                <FacebookIcon />
-              </a>
-              <a
-                href={restaurant.instagram}
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                <InstagramIcon />
-              </a>
+              {restaurant.facebook ? (
+                <a
+                  href={restaurant.facebook}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <FacebookIcon />
+                </a>
+              ) : null}
+              {restaurant.instagram ? (
+                <a
+                  href={restaurant.instagram}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <InstagramIcon />
+                </a>
+              ) : null}
             </>
           ) : null}
         </div>

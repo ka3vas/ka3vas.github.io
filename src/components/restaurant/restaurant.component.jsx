@@ -29,7 +29,6 @@ class Restaurant extends React.Component {
 
   // handleClick = (dishes, price) => {
   //   const lessThanDishes = dishes.filter((dish) => dish.price < price);
-  //   console.log('hi');
   //   this.props.setCurrentDishes(lessThanDishes);
   // };
 
@@ -81,6 +80,14 @@ class Restaurant extends React.Component {
               {snack.length > 0 ? <DishGroupSimple menu={snack[0]} /> : null}
             </div>
             {sauce.length > 0 ? <DishGroupSimple menu={sauce[0]} /> : null}
+            <div className='delivery'>
+              {restaurant.id === 1
+                ? 'Dowóz 6 zł na terenie całego Torunia.'
+                : null}
+              {restaurant.id === 2
+                ? 'Dowóz 6 zł (Fordon, Niemcz, Osielsko), poza Fordonem 10 zł.'
+                : null}
+            </div>
           </div>
         </div>
       </div>
