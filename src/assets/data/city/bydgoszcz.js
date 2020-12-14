@@ -24,7 +24,7 @@ const bydgoszcz = {
   ],
   phone: {
     directional: '48',
-    number: '791101112',
+    number: '791 10 11 12',
   },
   email: 'sushipokego@gmail.com',
   instagram: 'https://www.instagram.com/sushipokego_torun/',
