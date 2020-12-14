@@ -7,12 +7,15 @@ const Button = (props) => {
   const { phone } = props;
 
   return (
-    <a className='call-btn' href={`tel:+${phone.directional}${phone.number}`}>
+    <a
+      className='call-btn'
+      href={`tel:+${phone.directional}${phone.number.replace(/\s/g, '')}`}
+    >
       <span className='btn--round'>
         <PhoneIcon />
       </span>
       <span>
-        +{phone.directional} {phone.number.replace(/(.{3})/g, '$1 ')}
+        +{phone.directional} {phone.number}
       </span>
     </a>
   );

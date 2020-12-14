@@ -24,7 +24,7 @@ const torun = {
   ],
   phone: {
     directional: '48',
-    number: '512777730',
+    number: '512 777 730',
   },
   email: 'sushipokego@gmail.com',
   instagram: 'https://www.instagram.com/sushipokego_torun/',
