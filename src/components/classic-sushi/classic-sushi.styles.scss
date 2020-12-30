@@ -1,0 +1,35 @@
+.dish-group {
+    &__classic {
+        margin: 20px 0;
+        padding: 20px;
+        background-color: white;
+        border-radius: 5px;
+        max-width: 280px;
+        width: 100%;
+        box-sizing: border-box;
+
+        .flex-spread {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .border-bt {
+            border-bottom: 1px dashed var(--secondary-font-color);
+            padding: 15px 0 5px;
+        }
+
+        .title {
+            text-transform: capitalize;
+        }
+
+        p {
+            text-transform: capitalize;
+        }
+    }
+}
+
+.classic-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

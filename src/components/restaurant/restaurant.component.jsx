@@ -11,6 +11,7 @@ import './restaurant.styles.scss';
 import DishGroup from '../dish-group/dish-group.component';
 import DishGroupRoll from '../dish-group-roll/dish-group-roll.component';
 import DishGroupSimple from '../dish-group-simple/dish-group-simple.component';
+import ClassicShushi from '../classic-sushi/classic-sushi.component';
 import CollectionFilter from '../collection-filter/collection-filter.component';
 import MobileCta from '../mobile-cta/mobile-cta.component';
 
@@ -47,6 +48,7 @@ class Restaurant extends React.Component {
     const tempura = filterByCategory(currentDishes, 'tempura');
     const snack = filterByCategory(currentDishes, 'snack');
     const sauce = filterByCategory(currentDishes, 'sauce');
+    const classic = filterByCategory(currentDishes, 'classic');
 
     return (
       <div className='restaurant-display'>
@@ -79,6 +81,7 @@ class Restaurant extends React.Component {
               ) : null}
               {snack.length > 0 ? <DishGroupSimple menu={snack[0]} /> : null}
             </div>
+            {classic.length > 0 ? <ClassicShushi menu={classic[0]} /> : null}
             {sauce.length > 0 ? <DishGroupSimple menu={sauce[0]} /> : null}
             <div className='delivery'>
               {restaurant.id === 1
