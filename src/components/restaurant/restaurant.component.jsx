@@ -88,7 +88,7 @@ class Restaurant extends React.Component {
                 ? 'Dowóz 6 zł na terenie całego Torunia.'
                 : null}
               {restaurant.id === 2
-                ? 'Dowóz 6 zł (Fordon, Niemcz, Osielsko), poza Fordonem 10 zł.'
+                ? 'Dostawa: Fordon - 6zł (min. 50zł zamówienie), poza Fordon - 10zł (min. 80zł zamówienie)'
                 : null}
             </div>
           </div>
