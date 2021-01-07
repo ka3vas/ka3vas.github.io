@@ -22,7 +22,7 @@ const poke = {
       price: 3200,
       quantity: null,
       description:
-        'Miska z kawałkami surowego tuńczyka serwowana z ryżem lub quinoa, świeżymi warzywami (fasolka edamame, świeży ogórekm, prażona cebulka, pepperoni, sałatka z glonów, nachos, awokado) + sos do wyboru.',
+        'Miska z kawałkami surowego tuńczyka serwowana z ryżem, świeżymi warzywami (fasolka edamame, świeży ogórekm, prażona cebulka, pepperoni, sałatka z glonów, nachos, awokado) + sos do wyboru.',
       featured: false,
       avaiableFor: ['torun', 'swiecie'],
     },
@@ -32,7 +32,7 @@ const poke = {
       price: 2800,
       quantity: null,
       description:
-        'Miska z kawałkami surowego łososia serwowana z ryżem lub quinoa, świerzymi warzywami (fasolka edamame, świeży ogórek, czerwona cebula, pomidory, sałata z glonów, rzodkiewka, awokado) + sos do wyboru.',
+        'Miska z kawałkami surowego łososia serwowana z ryżem, świerzymi warzywami (fasolka edamame, świeży ogórek, czerwona cebula, pomidory, sałata z glonów, rzodkiewka, awokado) + sos do wyboru.',
       featured: false,
       avaiableFor: ['torun', 'swiecie'],
     },
@@ -42,7 +42,7 @@ const poke = {
       price: 3000,
       quantity: null,
       description:
-        'Miska z tatarem z łososia serwowana z ryżem lub quinoa, świeżymi warzywami (fasolka edamame, świeży ogórek, czerwona cebula, pomidory, sałata z glonów, rzodkiewka, awokado) + sos do wyboru.',
+        'Miska z tatarem z łososia serwowana z ryżem, świeżymi warzywami (fasolka edamame, świeży ogórek, czerwona cebula, pomidory, sałata z glonów, rzodkiewka, awokado) + sos do wyboru.',
       featured: false,
       avaiableFor: ['torun', 'swiecie'],
     },
@@ -52,7 +52,7 @@ const poke = {
       price: 3100,
       quantity: null,
       description:
-        'Miska z kawałkami surowego tuńczyka i łososia serwowana z ryżem lub quinoa, świerzymi warzywami (fasolka edamame, świeży ogórek, czerwona cebula, pomidory, sałata z glonów, nachos, awokado) + sos do wyboru.',
+        'Miska z kawałkami surowego tuńczyka i łososia serwowana z ryżem, świerzymi warzywami (fasolka edamame, świeży ogórek, czerwona cebula, pomidory, sałata z glonów, nachos, awokado) + sos do wyboru.',
       featured: false,
       avaiableFor: ['torun', 'swiecie'],
     },
