@@ -102,7 +102,7 @@ const set = {
     {
       imgSrc: setNigiri,
       title: 'set nigiri',
-      price: 4900,
+      price: 5400,
       quantity: 12,
       description: 'Mix nigiri (łosoś, tuńczyk, węgorz, krewetka).',
       featured: false,

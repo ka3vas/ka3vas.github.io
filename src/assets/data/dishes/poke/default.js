@@ -19,7 +19,7 @@ const poke = {
     {
       imgSrc: pokeTunczyk,
       title: 'poke z tuńczyka',
-      price: 3200,
+      price: 3500,
       quantity: null,
       description:
         'Miska z kawałkami surowego tuńczyka serwowana z ryżem, świeżymi warzywami (fasolka edamame, świeży ogórekm, prażona cebulka, pepperoni, sałatka z glonów, nachos, awokado) + sos do wyboru.',
@@ -29,7 +29,7 @@ const poke = {
     {
       imgSrc: pokeLosos,
       title: 'poke z łososia',
-      price: 2800,
+      price: 3100,
       quantity: null,
       description:
         'Miska z kawałkami surowego łososia serwowana z ryżem, świerzymi warzywami (fasolka edamame, świeży ogórek, czerwona cebula, pomidory, sałata z glonów, rzodkiewka, awokado) + sos do wyboru.',
@@ -39,7 +39,7 @@ const poke = {
     {
       imgSrc: pokeTatarLosos,
       title: 'poke tatar łosoś',
-      price: 3000,
+      price: 3300,
       quantity: null,
       description:
         'Miska z tatarem z łososia serwowana z ryżem, świeżymi warzywami (fasolka edamame, świeży ogórek, czerwona cebula, pomidory, sałata z glonów, rzodkiewka, awokado) + sos do wyboru.',
@@ -49,7 +49,7 @@ const poke = {
     {
       imgSrc: pokeMix,
       title: 'poke mix fish',
-      price: 3100,
+      price: 3400,
       quantity: null,
       description:
         'Miska z kawałkami surowego tuńczyka i łososia serwowana z ryżem, świerzymi warzywami (fasolka edamame, świeży ogórek, czerwona cebula, pomidory, sałata z glonów, nachos, awokado) + sos do wyboru.',
@@ -59,7 +59,7 @@ const poke = {
     {
       imgSrc: pokeKrewetka,
       title: 'poke z krewetkami',
-      price: 2800,
+      price: 3100,
       quantity: null,
       description:
         'Miska z krewetkami serwowana z ryżem, świeżymi warzywami (fasolka edamame, świeży ogórek, czerwona cebula, pomidory, sałata z glonów, rzodkiewka, awokado) + sos do wyboru.',
@@ -79,7 +79,7 @@ const poke = {
     {
       imgSrc: pokeWege,
       title: 'wege poke tofu',
-      price: 2400,
+      price: 2600,
       quantity: null,
       description:
         'Miska wegetariańska ze smażonym tofu serwowana z ryżem, świeżymi warzywami i owocami (fasolka edamame, świeży ogórek, pomidory, sałata z glonów, awokado) + sos do wyboru.',

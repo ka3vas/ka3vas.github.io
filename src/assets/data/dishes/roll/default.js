@@ -42,7 +42,7 @@ const roll = {
       title: 'tataki tuna mexico roll',
       price: {
         five: 2700,
-        eight: 3600,
+        eight: 3700,
       },
       quantity: {
         five: 5,
@@ -58,7 +58,7 @@ const roll = {
       title: 'kalifornia z krewetkami',
       price: {
         five: 2600,
-        eight: 3400,
+        eight: 3500,
       },
       quantity: {
         five: 5,
@@ -74,7 +74,7 @@ const roll = {
       title: 'fujiyama roll',
       price: {
         five: 2800,
-        eight: 3700,
+        eight: 3800,
       },
       quantity: {
         five: 5,
@@ -106,7 +106,7 @@ const roll = {
       title: 'green dragon roll',
       price: {
         five: 2900,
-        eight: 3900,
+        eight: 4000,
       },
       quantity: {
         five: 5,
@@ -122,7 +122,7 @@ const roll = {
       title: 'black dragon roll',
       price: {
         five: 2900,
-        eight: 3900,
+        eight: 4000,
       },
       quantity: {
         five: 5,
@@ -138,7 +138,7 @@ const roll = {
       title: 'sake roll z migdałami',
       price: {
         five: 2600,
-        eight: 3400,
+        eight: 3500,
       },
       quantity: {
         five: 5,
@@ -153,7 +153,7 @@ const roll = {
       title: 'inari salmon roll',
       price: {
         five: 2900,
-        eight: 3900,
+        eight: 4000,
       },
       quantity: {
         five: 5,
@@ -169,7 +169,7 @@ const roll = {
       title: 'fresh salmon roll',
       price: {
         five: 2900,
-        eight: 3900,
+        eight: 4000,
       },
       quantity: {
         five: 5,
@@ -185,7 +185,7 @@ const roll = {
       title: 'rainbow roll',
       price: {
         five: 2900,
-        eight: 3800,
+        eight: 3900,
       },
       quantity: {
         five: 5,
@@ -201,7 +201,7 @@ const roll = {
       title: 'sake jaki roll',
       price: {
         five: 2600,
-        eight: 3500,
+        eight: 3600,
       },
       quantity: {
         five: 5,
@@ -216,7 +216,7 @@ const roll = {
       title: 'krab soft shell roll',
       price: {
         five: 2900,
-        eight: 3900,
+        eight: 4000,
       },
       quantity: {
         five: 5,
