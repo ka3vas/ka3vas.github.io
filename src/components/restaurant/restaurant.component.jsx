@@ -90,6 +90,9 @@ class Restaurant extends React.Component {
               {restaurant.id === 2
                 ? 'Dostawa: Fordon - 6zł (min. 50zł zamówienie), poza Fordon - 10zł (min. 80zł zamówienie)'
                 : null}
+              {restaurant.id === 3
+              ? 'Dowóz 10 zł na terenie całego miasta.'
+              : null}
             </div>
           </div>
         </div>
