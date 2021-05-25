@@ -1,4 +1,4 @@
-import imgSrc from '../../../images/dishes/tempura/krewetki_w_tempurze.png';
+import imgSrc from '../../../images/dishes/tempura/krewetki_w_tempurze.jpg';
 
 const tempura = {
   category: 'tempura',
