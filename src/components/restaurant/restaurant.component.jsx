@@ -85,7 +85,7 @@ class Restaurant extends React.Component {
             {sauce.length > 0 ? <DishGroupSimple menu={sauce[0]} /> : null}
             <div className='delivery'>
               {restaurant.id === 1
-                ? 'Dowóz 6 zł na terenie całego Torunia.'
+                ? 'Do 4 km dowóz 6zł, powyżej 4 km 10zł. Darmowa dostawa od 200zł.'
                 : null}
               {restaurant.id === 2
                 ? 'Dostawa: Fordon - 6zł (min. 50zł zamówienie), poza Fordon - 10zł (min. 80zł zamówienie)'

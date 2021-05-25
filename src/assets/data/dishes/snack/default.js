@@ -1,4 +1,4 @@
-import imgSrc from '../../../images/dishes/snack/salatka_z_glonow.png';
+import imgSrc from '../../../images/dishes/snack/salatka_z_glonow.jpg';
 
 const snack = {
   category: 'snack',

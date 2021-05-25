@@ -1,16 +1,20 @@
-import rollEbi from '../../../images/dishes/roll/ebi_sake_roll.png';
-import rollTataki from '../../../images/dishes/roll/tataki_tuna_mexiko_roll.png';
-import rollKalifornia from '../../../images/dishes/roll/kalifornia_z_krewetkami.png';
-import rollFujiyama from '../../../images/dishes/roll/fujiyama_roll.png';
-import rollMandarin from '../../../images/dishes/roll/mandarin_roll.png';
-import rollGreenDragon from '../../../images/dishes/roll/green_dragon.png';
-import rollBlackDragon from '../../../images/dishes/roll/black_dragon.png';
-import rollMigdal from '../../../images/dishes/roll/sake_roll_z_migdalami.png';
-import rollInari from '../../../images/dishes/roll/inari_salmon_roll.png';
-import rollFreshSalmon from '../../../images/dishes/roll/fresh_salmon_roll.png';
-import rollRainbow from '../../../images/dishes/roll/rainbow_roll.png';
-import rollCrab from '../../../images/dishes/roll/krab_soft_shell_roll.png';
-import rollSakeJaki from '../../../images/dishes/roll/sake_jaki_roll.png';
+import rollEbi from '../../../images/dishes/roll/ebi_sake_roll.jpg';
+import rollTataki from '../../../images/dishes/roll/tataki_tuna_mexiko_roll.jpg';
+import rollKalifornia from '../../../images/dishes/roll/kalifornia_z_krewetkami.jpg';
+import rollFujiyama from '../../../images/dishes/roll/fujiyama_roll.jpg';
+import rollMandarin from '../../../images/dishes/roll/mandarin_roll.jpg';
+import rollGreenDragon from '../../../images/dishes/roll/green_dragon.jpg';
+import rollBlackDragon from '../../../images/dishes/roll/black_dragon.jpg';
+import rollMigdal from '../../../images/dishes/roll/sake_roll_z_migdalami.jpg';
+import rollInari from '../../../images/dishes/roll/inari_salmon_roll.jpg';
+import rollFreshSalmon from '../../../images/dishes/roll/fresh_salmon_roll.jpg';
+import rollRainbow from '../../../images/dishes/roll/rainbow_roll.jpg';
+import rollCrab from '../../../images/dishes/roll/krab_soft_shell_roll.jpg';
+import rollSakeJaki from '../../../images/dishes/roll/sake_jaki_roll.jpg';
+import rollBbq from '../../../images/dishes/roll/bbq_grenade_roll.jpg';
+import spiceSalmonRoll from '../../../images/dishes/roll/spice_salmon_roll.jpg';
+import sweetTempuraRoll from '../../../images/dishes/roll/sweet_tempura_roll.jpg';
+import unagiTempuraRoll from '../../../images/dishes/roll/unagi_tempura_roll.jpg';
 
 const roll = {
   category: 'roll',
@@ -86,18 +90,82 @@ const roll = {
       avaiableFor: ['torun', 'swiecie'],
     },
     {
-      imgSrc: rollMandarin,
-      title: 'mandarin roll',
+      imgSrc: rollBbq,
+      title: 'bbq grenade roll',
       price: {
         five: 2900,
-        eight: 3900,
+        eight: 4000,
       },
       quantity: {
         five: 5,
         eight: 8,
       },
       description:
-        'Rolka z grillowanym węgorzem i glonami wakame w środku, otulona łososiem i kawiorem.',
+        'Rolka z krewetką, serkiem, kawiorem w środku, tuńczykiem, BBQ, grenade na zewnątrz.',
+      featured: false,
+      avaiableFor: ['torun', 'swiecie'],
+    },
+    {
+      imgSrc: spiceSalmonRoll,
+      title: 'spice salmon roll',
+      price: {
+        five: 2900,
+        eight: 4000,
+      },
+      quantity: {
+        five: 5,
+        eight: 8,
+      },
+      description:
+        'Rolka w płatkach migdałów z łososiem, krewetką, serkiem, warzywami w środku, tatarem z łososia i sosem mango na zewnątrz.',
+      featured: false,
+      avaiableFor: ['torun', 'swiecie'],
+    },
+    {
+      imgSrc: sweetTempuraRoll,
+      title: 'sweet tempura roll',
+      price: {
+        five: 2900,
+        eight: 4200,
+      },
+      quantity: {
+        five: 5,
+        eight: 8,
+      },
+      description:
+        'Rolka w tempurze z łososiem, warzywami, krewetkami i serkiem.',
+      featured: false,
+      avaiableFor: ['torun', 'swiecie'],
+    },
+    {
+      imgSrc: unagiTempuraRoll,
+      title: 'unagi tempura roll',
+      price: {
+        five: 2900,
+        eight: 4200,
+      },
+      quantity: {
+        five: 5,
+        eight: 8,
+      },
+      description:
+        'Rolka z awokado, kawiorem, tempurą w środku, węgorzem i sosem kabajaki na zewnątrz.',
+      featured: false,
+      avaiableFor: ['torun', 'swiecie'],
+    },
+    {
+      imgSrc: rollMandarin,
+      title: 'mango shrimp roll',
+      price: {
+        five: 2900,
+        eight: 4000,
+      },
+      quantity: {
+        five: 5,
+        eight: 8,
+      },
+      description:
+        'Rolka z krewetką, serkiem, mango w środku, łososiem, sosem mango, kawiorem na zewnątrz.',
       featured: false,
       avaiableFor: ['torun', 'swiecie'],
     },
