@@ -22,20 +22,20 @@ const set = {
     {
       imgSrc: imgSrc,
       title: 'premium set',
-      price: 22000,
-      quantity: 65,
+      price: 24000,
+      quantity: 70,
       description:
-        '3 Fusion roll (24 szt. do wyboru), 8 Nigiri mix, 4 Gunkany mix, Fujiyama z łososiem, Fit Roll z łososiem (6 szt.), Hosomaki z łososiem (6 szt.), Hosomaki z tuńczykiem (6 szt.).',
+        '3 Fusion roll (24 szt. do wyboru), 8 Nigiri mix, 4 Gunkany mix, Fujiyama roll, Fit Roll z łososiem (6 szt.), Hosomaki z łososiem (6 szt.), Hosomaki z tuńczykiem (6 szt.).',
       featured: true,
     },
-    {
-      imgSrc: setSashimi,
-      title: 'set sashimi',
-      price: 6800,
-      quantity: 20,
-      description: 'Mix sashimi (łosoś, tuńczyk, węgorz, krewetka).',
-      featured: false,
-    },
+    // {
+    //   imgSrc: setSashimi,
+    //   title: 'set sashimi',
+    //   price: 6800,
+    //   quantity: 20,
+    //   description: 'Mix sashimi (łosoś, tuńczyk, węgorz, krewetka).',
+    //   featured: false,
+    // },
     {
       imgSrc: pokemon,
       title: 'pokemon set',

@@ -29,8 +29,8 @@ const roll = {
       imgSrc: rollEbi,
       title: 'ebi sake roll',
       price: {
-        five: 2600,
-        eight: 3500,
+        five: 2700,
+        eight: 3700,
       },
       quantity: {
         five: 5,
@@ -45,8 +45,8 @@ const roll = {
       imgSrc: rollTataki,
       title: 'tataki tuna mexico roll',
       price: {
-        five: 2700,
-        eight: 3700,
+        five: 2800,
+        eight: 3800,
       },
       quantity: {
         five: 5,
@@ -61,8 +61,8 @@ const roll = {
       imgSrc: rollKalifornia,
       title: 'kalifornia z krewetkami',
       price: {
-        five: 2600,
-        eight: 3500,
+        five: 2700,
+        eight: 3600,
       },
       quantity: {
         five: 5,
@@ -77,8 +77,8 @@ const roll = {
       imgSrc: rollFujiyama,
       title: 'fujiyama roll',
       price: {
-        five: 2800,
-        eight: 3800,
+        five: 2900,
+        eight: 3900,
       },
       quantity: {
         five: 5,
@@ -93,8 +93,8 @@ const roll = {
       imgSrc: rollBbq,
       title: 'bbq grenade roll',
       price: {
-        five: 2900,
-        eight: 4000,
+        five: 3000,
+        eight: 4100,
       },
       quantity: {
         five: 5,
@@ -109,8 +109,8 @@ const roll = {
       imgSrc: spiceSalmonRoll,
       title: 'spice salmon roll',
       price: {
-        five: 2900,
-        eight: 4000,
+        five: 3000,
+        eight: 4100,
       },
       quantity: {
         five: 5,
@@ -125,8 +125,8 @@ const roll = {
       imgSrc: sweetTempuraRoll,
       title: 'sweet tempura roll',
       price: {
-        five: 2900,
-        eight: 4200,
+        five: 3000,
+        eight: 4300,
       },
       quantity: {
         five: 5,
@@ -141,8 +141,8 @@ const roll = {
       imgSrc: unagiTempuraRoll,
       title: 'unagi tempura roll',
       price: {
-        five: 2900,
-        eight: 4200,
+        five: 3000,
+        eight: 4300,
       },
       quantity: {
         five: 5,
@@ -157,8 +157,8 @@ const roll = {
       imgSrc: rollMandarin,
       title: 'mango shrimp roll',
       price: {
-        five: 2900,
-        eight: 4000,
+        five: 3000,
+        eight: 4100,
       },
       quantity: {
         five: 5,
@@ -173,8 +173,8 @@ const roll = {
       imgSrc: rollGreenDragon,
       title: 'green dragon roll',
       price: {
-        five: 2900,
-        eight: 4000,
+        five: 3000,
+        eight: 4100,
       },
       quantity: {
         five: 5,
@@ -189,8 +189,8 @@ const roll = {
       imgSrc: rollBlackDragon,
       title: 'black dragon roll',
       price: {
-        five: 2900,
-        eight: 4000,
+        five: 3000,
+        eight: 4100,
       },
       quantity: {
         five: 5,
@@ -205,8 +205,8 @@ const roll = {
       imgSrc: rollMigdal,
       title: 'sake roll z migdałami',
       price: {
-        five: 2600,
-        eight: 3500,
+        five: 2700,
+        eight: 3600,
       },
       quantity: {
         five: 5,
@@ -220,8 +220,8 @@ const roll = {
       imgSrc: rollInari,
       title: 'inari salmon roll',
       price: {
-        five: 2900,
-        eight: 4000,
+        five: 3000,
+        eight: 4100,
       },
       quantity: {
         five: 5,
@@ -236,8 +236,8 @@ const roll = {
       imgSrc: rollFreshSalmon,
       title: 'fresh salmon roll',
       price: {
-        five: 2900,
-        eight: 4000,
+        five: 3000,
+        eight: 4100,
       },
       quantity: {
         five: 5,
@@ -252,8 +252,8 @@ const roll = {
       imgSrc: rollRainbow,
       title: 'rainbow roll',
       price: {
-        five: 2900,
-        eight: 3900,
+        five: 3000,
+        eight: 4000,
       },
       quantity: {
         five: 5,
@@ -268,8 +268,8 @@ const roll = {
       imgSrc: rollSakeJaki,
       title: 'sake jaki roll',
       price: {
-        five: 2600,
-        eight: 3600,
+        five: 2700,
+        eight: 3700,
       },
       quantity: {
         five: 5,
@@ -283,8 +283,8 @@ const roll = {
       imgSrc: rollCrab,
       title: 'krab soft shell roll',
       price: {
-        five: 2900,
-        eight: 4000,
+        five: 3000,
+        eight: 4100,
       },
       quantity: {
         five: 5,

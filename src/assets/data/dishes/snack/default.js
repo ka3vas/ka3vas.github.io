@@ -19,7 +19,7 @@ const snack = {
     },
     {
       title: 'tatar z łososia',
-      price: 2800,
+      price: 2900,
       quantity: null,
       description: '',
       featured: false,
@@ -27,7 +27,7 @@ const snack = {
     },
     {
       title: 'tatar z tuńczyka',
-      price: 3100,
+      price: 3200,
       quantity: null,
       description: '',
       featured: false,

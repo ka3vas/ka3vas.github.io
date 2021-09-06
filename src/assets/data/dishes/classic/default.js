@@ -8,7 +8,7 @@ const classic = {
   },
   dishes: [
     {
-      title: 'niguri/gunkany/inari',
+      title: 'niguri/gunkany',
       quantity: 2,
       dish: [
         {
@@ -29,7 +29,7 @@ const classic = {
         {
           title: 'krewetka',
           priceDiffers: false,
-          price: 1100,
+          price: 1500,
         },
       ],
       featured: false,
@@ -57,7 +57,7 @@ const classic = {
         {
           title: 'krewetka',
           priceDiffers: false,
-          price: 1400,
+          price: 1600,
         },
       ],
       featured: false,

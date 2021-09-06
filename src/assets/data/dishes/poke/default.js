@@ -24,7 +24,7 @@ const poke = {
       description:
         'Miska z kawałkami surowego tuńczyka serwowana z ryżem, świeżymi warzywami (fasolka edamame, świeży ogórekm, prażona cebulka, pepperoni, sałatka z glonów, nachos, awokado) + sos do wyboru.',
       featured: false,
-      avaiableFor: ['torun', 'swiecie'],
+      avaiableFor: ['torun', 'swiecie', 'poznan'],
     },
     {
       imgSrc: pokeLosos,
@@ -34,7 +34,7 @@ const poke = {
       description:
         'Miska z kawałkami surowego łososia serwowana z ryżem, świerzymi warzywami (fasolka edamame, świeży ogórek, czerwona cebula, pomidory, sałata z glonów, rzodkiewka, awokado) + sos do wyboru.',
       featured: false,
-      avaiableFor: ['torun', 'swiecie'],
+      avaiableFor: ['torun', 'swiecie', 'poznan'],
     },
     {
       imgSrc: pokeTatarLosos,
@@ -44,8 +44,17 @@ const poke = {
       description:
         'Miska z tatarem z łososia serwowana z ryżem, świeżymi warzywami (fasolka edamame, świeży ogórek, czerwona cebula, pomidory, sałata z glonów, rzodkiewka, awokado) + sos do wyboru.',
       featured: false,
-      avaiableFor: ['torun', 'swiecie'],
+      avaiableFor: ['torun', 'swiecie', 'poznan'],
     },
+    // {
+    //   imgSrc: pokeTatarLosos,
+    //   title: 'poke tatar tuńczyk',
+    //   price: 3700,
+    //   quantity: null,
+    //   description: '',
+    //   featured: false,
+    //   avaiableFor: ['torun', 'swiecie', 'poznan'],
+    // },
     {
       imgSrc: pokeMix,
       title: 'poke mix fish',
@@ -54,7 +63,7 @@ const poke = {
       description:
         'Miska z kawałkami surowego tuńczyka i łososia serwowana z ryżem, świerzymi warzywami (fasolka edamame, świeży ogórek, czerwona cebula, pomidory, sałata z glonów, nachos, awokado) + sos do wyboru.',
       featured: false,
-      avaiableFor: ['torun', 'swiecie'],
+      avaiableFor: ['torun', 'swiecie', 'poznan'],
     },
     {
       imgSrc: pokeKrewetka,
@@ -64,7 +73,7 @@ const poke = {
       description:
         'Miska z krewetkami serwowana z ryżem, świeżymi warzywami (fasolka edamame, świeży ogórek, czerwona cebula, pomidory, sałata z glonów, rzodkiewka, awokado) + sos do wyboru.',
       featured: false,
-      avaiableFor: ['torun', 'swiecie'],
+      avaiableFor: ['torun', 'swiecie', 'poznan'],
     },
     // {
     //   imgSrc: pokeSurimi,
@@ -84,7 +93,7 @@ const poke = {
       description:
         'Miska wegetariańska ze smażonym tofu serwowana z ryżem, świeżymi warzywami i owocami (fasolka edamame, świeży ogórek, pomidory, sałata z glonów, awokado) + sos do wyboru.',
       featured: false,
-      avaiableFor: ['torun', 'swiecie'],
+      avaiableFor: ['torun', 'swiecie', 'poznan'],
     },
   ],
 };
